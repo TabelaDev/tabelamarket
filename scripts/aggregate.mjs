@@ -13,6 +13,7 @@ import { execFileSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { format } from 'prettier';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TabelaDev';
@@ -156,7 +157,7 @@ function repoReleaseEntries(name) {
 	}
 }
 
-function main() {
+async function main() {
 	const repos = gh(`orgs/${ORG}/repos`).filter(
 		(r) => !r.private && r.name !== SITE && !EXCLUDED.has(r.name)
 	);
@@ -201,9 +202,13 @@ function main() {
 		.sort((a, b) => (a.date < b.date ? 1 : -1))
 		.slice(0, 50);
 
-	writeFileSync(join(ROOT, 'src/lib/projects.json'), JSON.stringify(projects, null, 2) + '\n');
-	writeFileSync(join(ROOT, 'src/lib/changelog.json'), JSON.stringify(changelog, null, 2) + '\n');
+	/* Saída em formato prettier (tabs, quebra de linha) — o CI roda
+	   `prettier --check` e os JSONs são commitados, então a saída tem que
+	   casar com o prettier do repo. */
+	const pretty = (data) => format(JSON.stringify(data), { parser: 'json' });
+	writeFileSync(join(ROOT, 'src/lib/projects.json'), await pretty(projects));
+	writeFileSync(join(ROOT, 'src/lib/changelog.json'), await pretty(changelog));
 	console.log(`projects: ${projects.length} repos, changelog: ${changelog.length} entradas`);
 }
 
-main();
+await main();
