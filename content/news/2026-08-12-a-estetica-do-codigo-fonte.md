@@ -1,7 +1,7 @@
 ---
 title: A estética "lendo o código-fonte de alguém"
 date: 2026-08-12
-summary: "Todo app da TabelaDev compartilha a mesma linguagem visual: Catppuccin, bordas afiadas, mono carregando a estrutura. Não é coincidência — é o tabelawebui."
+summary: 'Todo app da TabelaDev compartilha a mesma linguagem visual: Catppuccin, bordas afiadas, mono carregando a estrutura. Não é coincidência — é o tabelawebui.'
 tags: [tabelawebui, design]
 featured: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Por que "auto custo"
 date: 2026-08-12
-summary: "A filosofia por trás da TabelaDev: suas chaves, seu banco, sua conta de nuvem. Nada de assinatura, nada de lock-in. BYOK não é feature, é princípio."
+summary: 'A filosofia por trás da TabelaDev: suas chaves, seu banco, sua conta de nuvem. Nada de assinatura, nada de lock-in. BYOK não é feature, é princípio.'
 tags: [filosofia]
 featured: true
 ---
