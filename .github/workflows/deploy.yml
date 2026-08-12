@@ -1,0 +1,52 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Mecanismo primário: rebuild diário captura qualquer release nova
+    # (CHANGELOG.md/releases de qualquer repo), mesmo se a máquina estiver
+    # desligada na hora da release. repository_dispatch fica como atalho pra
+    # regen sob demanda (ex.: agente ou humano).
+    - cron: '30 5 * * *'
+  repository_dispatch:
+    types: [regen-changelog]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Aggregate data
+        run: bun run aggregate
+
+      - name: Commit refreshed data (if any)
+        run: |
+          if ! git diff --quiet -- src/lib/projects.json src/lib/changelog.json; then
+            git config user.name "tabelahub-bot"
+            git config user.email "noreply@github.com"
+            git add src/lib/projects.json src/lib/changelog.json
+            git commit -m "chore: refresh aggregated data"
+            git push
+          fi
+
+      - name: Build
+        run: bun run build
+
+      - name: Deploy
+        run: bunx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
