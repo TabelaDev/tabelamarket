@@ -13,7 +13,7 @@ import { execFileSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { format } from 'prettier';
+import { format, resolveConfig } from 'prettier';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TabelaDev';
@@ -205,7 +205,8 @@ async function main() {
 	/* Saída em formato prettier (tabs, quebra de linha) — o CI roda
 	   `prettier --check` e os JSONs são commitados, então a saída tem que
 	   casar com o prettier do repo. */
-	const pretty = (data) => format(JSON.stringify(data), { parser: 'json' });
+	const prettierConfig = await resolveConfig(join(ROOT, 'prettier.config.js'));
+	const pretty = (data) => format(JSON.stringify(data), { ...prettierConfig, parser: 'json' });
 	writeFileSync(join(ROOT, 'src/lib/projects.json'), await pretty(projects));
 	writeFileSync(join(ROOT, 'src/lib/changelog.json'), await pretty(changelog));
 	console.log(`projects: ${projects.length} repos, changelog: ${changelog.length} entradas`);

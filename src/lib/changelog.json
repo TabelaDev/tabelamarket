@@ -1,138 +1,138 @@
 [
-  {
-    "repo": "tabelawebui",
-    "version": "0.18.0",
-    "date": "2026-08-12",
-    "title": "v0.18.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.17.0...v0.18.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelawebui",
-    "version": "0.17.0",
-    "date": "2026-08-12",
-    "title": "v0.17.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.15.1...v0.17.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelawebui",
-    "version": "mcp-v0.1.1",
-    "date": "2026-08-12",
-    "title": "mcp-v0.1.1",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.17.0...mcp-v0.1.1",
-    "source": "release"
-  },
-  {
-    "repo": "tabelawebui",
-    "version": "0.15.1",
-    "date": "2026-08-11",
-    "title": "v0.15.1",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.15.0...v0.15.1",
-    "source": "release"
-  },
-  {
-    "repo": "tabelascaffold",
-    "version": "0.5.0",
-    "date": "2026-08-11",
-    "title": "v0.5.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelawebui",
-    "version": "0.15.0",
-    "date": "2026-08-10",
-    "title": "v0.15.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.14.2...v0.15.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelascaffold",
-    "version": "0.4.1",
-    "date": "2026-08-10",
-    "title": "v0.4.1",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.0...v0.4.1",
-    "source": "release"
-  },
-  {
-    "repo": "tabelascaffold",
-    "version": "0.4.0",
-    "date": "2026-08-10",
-    "title": "v0.4.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.3.0...v0.4.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelascaffold",
-    "version": "0.3.0",
-    "date": "2026-08-10",
-    "title": "v0.3.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelatuiui",
-    "version": "0.4.0",
-    "date": "2026-08-10",
-    "title": "tabelatuiui 0.4.0",
-    "body": "### Added\n\n- `Config[T]` — settings de app em TOML (`<ConfigDir()>/<app>/config.toml`),\n  seguindo o mesmo modelo config-file-first do `KeyRegistry`:\n  `NewConfig(path, defaults)` + `Load()`/`Reload()`/`Get()`. O merge é por\n  chave — o arquivo só sobrescreve os campos que aparecem nele, o resto fica\n  no default — e cada app define o próprio schema (`T`). Arquivo ausente não é\n  erro; arquivo malformado devolve erro **preservando o valor anterior**, pra\n  um typo no meio da edição não derrubar um app rodando pros defaults.\n\n- `ConfigPath(app, file)` — resolve `~/.config/<app>/<file>` respeitando\n  `XDG_CONFIG_HOME`, substituindo o `filepath.Join(ConfigDir(), app, file)`\n  que era copiado em cada app.\n\n- `KeyRegistry.Reload()` — re-lê o arquivo de keybindings do disco (fonte da\n  verdade) e reporta se os overrides mudaram; `Load()` agora delega pra ele.\n  Edições externas no `keybindings.json` passam a valer chamando `Reload()`\n  numa tecla de recarga (ou a cada `View()`), sem reiniciar.\n\n### Changed\n\n- Fluxo de keybindings documentado como **config-file-first** no README:\n  editar `keybindings.json` + recarregar é o caminho primário, e `Label`\n  multi-tecla (ex.: `nav` com `ctrl+h/j/k/l`) é o padrão canônico de hints\n  agrupados — uma linha no footer/help em vez de uma entrada por tecla.\n  `SettingsModal` fica como conveniência opcional, não o único caminho.\n\n- `KeyRegistry` — fonte única de verdade das keybindings: defaults\n  registrados em código + overrides por ação persistidos em JSON\n  (`bindings.json`). `Resolve(id)` devolve o binding efetivo (override vence),\n  `Bindings()` alimenta Footer/HelpModal, `Set` valida conflito de tecla,\n  `Reset`/`ResetAll` restauram os defaults (e apagam o arquivo quando nada\n  está customizado).\n- `SettingsModal` — overlay de edição de teclas: navega pela lista de ações\n  (j/k, g/G, pgup/pgdn), `enter` entra no modo \"pressione a nova tecla\",\n  `r` reseta uma ação, `R` reseta tudo, mostra conflito em vermelho e marca\n  com `●` as ações customizadas.\n- `HelpSection.BindingsFn` — provider dinâmico de bindings pro HelpModal,\n  pra ele refletir rebinds feitos no SettingsModal na hora.",
-    "source": "changelog"
-  },
-  {
-    "repo": "tabelavagas",
-    "version": "0.1.0",
-    "date": "2026-08-09",
-    "title": "v0.1.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/commits/v0.1.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelatuiui",
-    "version": "0.2.0",
-    "date": "2026-08-09",
-    "title": "tabelatuiui 0.2.0",
-    "body": "### Added\n\n- `NewThemeFromEnv(appPrefix)` — resolve o tema lendo `<PREFIX>_DMS_SETTINGS`\n  e `<PREFIX>_ACCENT` do ambiente, substituindo o boilerplate de `theme.go`\n  que todo app repetia.\n- `Footer` — builder da barra de status/help: contexto à esquerda + hints de\n  teclado à direita, gerados a partir de uma slice de `key.Binding` (nunca\n  mais drift entre o que o `Update` aceita e o que o footer mostra). O\n  overflow é truncado por token (` · `) em vez de caractere.\n- `HelpModal` — overlay centralizado listando todas as keybindings em seções\n  (o \"?\" de todo TUI), com scroll e fechamento por `q`/`esc`. Só precisa do\n  tema; a lib cuida do posicionamento.\n- `Binding` — alias para `key.Binding` (bubbles/key), exposto pelo pacote\n  pra apps não precisarem importar a bubbles diretamente pra declarar atalhos.\n\n### Changed\n\n- `tabelatuiui` agora depende de `bubbles`/`bubbletea` (para os tipos\n  `key.Binding` usados por `Footer`/`HelpModal`).",
-    "source": "changelog"
-  },
-  {
-    "repo": "tabelatuiui",
-    "version": "0.1.1",
-    "date": "2026-08-09",
-    "title": "tabelatuiui 0.1.1",
-    "body": "### Changed\n\n- `Header` agora usa o background do accent (Primary) com texto Base, em vez\n  de mantle + texto accent — o cabeçalho fica visível contra terminal escuro.\n- `Modal` passou a usar borda do accent (Primary) no lugar de lavender.\n- `Header`/`Footer` ficam flush contra as bordas do terminal, com padding\n  horizontal de 2 colunas (removido o antigo padding interno que os apps\n  precisavam compensar).",
-    "source": "changelog"
-  },
-  {
-    "repo": "tabelakanban",
-    "version": "0.2.0",
-    "date": "2026-08-06",
-    "title": "v0.2.0",
-    "body": "## v0.2.0 — kanban com navegação hjkl, sidebar, preview, due dates e formulários estilo djobs\n\nMaior release até aqui. Resumo das mudanças:\n\n**Navegação hjkl**\n- `h`/`l` navegam colunas (na primeira, `h` entra na sidebar de boards), `j`/`k` cards, `H`/`L` movem card, `ctrl+h`/`ctrl+l` reordenam coluna.\n- Sidebar de boards colapsável (`ctrl+e`); preview do markdown do card (`o`); página de log de atividades (`g`).\n\n**Due dates**\n- `t` define/limpa o due date do card (formato `DD/MM`), guardado no front-matter do `.md` e exibido no rodapé do card (vermelho quando vencido).\n\n**Formulários estilo djobs (`huh`)**\n- Todos os prompts (novo card/coluna/board, renomear, due) agora são formulários com label, placeholder e navegação — criar card já pergunta título + due.\n\n**Outros**\n- Colunas redimensionam pra preencher a tela; seleção de card é um retângulo accent completo.\n- Notificações numa linha reservada (não quebram mais a borda das colunas).\n- `ctrl+r` dá retorno (\"recarregado — N boards\").\n- IPC: novos `cards.create` / `cards.move`.\n\nBinários para linux (amd64/arm64) e darwin (amd64/arm64).\n",
-    "source": "release"
-  },
-  {
-    "repo": "tabelascaffold",
-    "version": "0.2.0",
-    "date": "2026-08-04",
-    "title": "v0.2.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.1.0...v0.2.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelakanban",
-    "version": "0.1.0",
-    "date": "2026-08-04",
-    "title": "v0.1.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/commits/v0.1.0",
-    "source": "release"
-  },
-  {
-    "repo": "tabelaradar",
-    "version": "0.1.0",
-    "date": "2026-08-04",
-    "title": "v0.1.0",
-    "body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/commits/v0.1.0",
-    "source": "release"
-  }
+	{
+		"repo": "tabelawebui",
+		"version": "0.18.0",
+		"date": "2026-08-12",
+		"title": "v0.18.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.17.0...v0.18.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.17.0",
+		"date": "2026-08-12",
+		"title": "v0.17.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.15.1...v0.17.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "mcp-v0.1.1",
+		"date": "2026-08-12",
+		"title": "mcp-v0.1.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.17.0...mcp-v0.1.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.15.1",
+		"date": "2026-08-11",
+		"title": "v0.15.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.15.0...v0.15.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelascaffold",
+		"version": "0.5.0",
+		"date": "2026-08-11",
+		"title": "v0.5.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.15.0",
+		"date": "2026-08-10",
+		"title": "v0.15.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.14.2...v0.15.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelascaffold",
+		"version": "0.4.1",
+		"date": "2026-08-10",
+		"title": "v0.4.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.0...v0.4.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelascaffold",
+		"version": "0.4.0",
+		"date": "2026-08-10",
+		"title": "v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.3.0...v0.4.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelascaffold",
+		"version": "0.3.0",
+		"date": "2026-08-10",
+		"title": "v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelatuiui",
+		"version": "0.4.0",
+		"date": "2026-08-10",
+		"title": "tabelatuiui 0.4.0",
+		"body": "### Added\n\n- `Config[T]` — settings de app em TOML (`<ConfigDir()>/<app>/config.toml`),\n  seguindo o mesmo modelo config-file-first do `KeyRegistry`:\n  `NewConfig(path, defaults)` + `Load()`/`Reload()`/`Get()`. O merge é por\n  chave — o arquivo só sobrescreve os campos que aparecem nele, o resto fica\n  no default — e cada app define o próprio schema (`T`). Arquivo ausente não é\n  erro; arquivo malformado devolve erro **preservando o valor anterior**, pra\n  um typo no meio da edição não derrubar um app rodando pros defaults.\n\n- `ConfigPath(app, file)` — resolve `~/.config/<app>/<file>` respeitando\n  `XDG_CONFIG_HOME`, substituindo o `filepath.Join(ConfigDir(), app, file)`\n  que era copiado em cada app.\n\n- `KeyRegistry.Reload()` — re-lê o arquivo de keybindings do disco (fonte da\n  verdade) e reporta se os overrides mudaram; `Load()` agora delega pra ele.\n  Edições externas no `keybindings.json` passam a valer chamando `Reload()`\n  numa tecla de recarga (ou a cada `View()`), sem reiniciar.\n\n### Changed\n\n- Fluxo de keybindings documentado como **config-file-first** no README:\n  editar `keybindings.json` + recarregar é o caminho primário, e `Label`\n  multi-tecla (ex.: `nav` com `ctrl+h/j/k/l`) é o padrão canônico de hints\n  agrupados — uma linha no footer/help em vez de uma entrada por tecla.\n  `SettingsModal` fica como conveniência opcional, não o único caminho.\n\n- `KeyRegistry` — fonte única de verdade das keybindings: defaults\n  registrados em código + overrides por ação persistidos em JSON\n  (`bindings.json`). `Resolve(id)` devolve o binding efetivo (override vence),\n  `Bindings()` alimenta Footer/HelpModal, `Set` valida conflito de tecla,\n  `Reset`/`ResetAll` restauram os defaults (e apagam o arquivo quando nada\n  está customizado).\n- `SettingsModal` — overlay de edição de teclas: navega pela lista de ações\n  (j/k, g/G, pgup/pgdn), `enter` entra no modo \"pressione a nova tecla\",\n  `r` reseta uma ação, `R` reseta tudo, mostra conflito em vermelho e marca\n  com `●` as ações customizadas.\n- `HelpSection.BindingsFn` — provider dinâmico de bindings pro HelpModal,\n  pra ele refletir rebinds feitos no SettingsModal na hora.",
+		"source": "changelog"
+	},
+	{
+		"repo": "tabelavagas",
+		"version": "0.1.0",
+		"date": "2026-08-09",
+		"title": "v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/commits/v0.1.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelatuiui",
+		"version": "0.2.0",
+		"date": "2026-08-09",
+		"title": "tabelatuiui 0.2.0",
+		"body": "### Added\n\n- `NewThemeFromEnv(appPrefix)` — resolve o tema lendo `<PREFIX>_DMS_SETTINGS`\n  e `<PREFIX>_ACCENT` do ambiente, substituindo o boilerplate de `theme.go`\n  que todo app repetia.\n- `Footer` — builder da barra de status/help: contexto à esquerda + hints de\n  teclado à direita, gerados a partir de uma slice de `key.Binding` (nunca\n  mais drift entre o que o `Update` aceita e o que o footer mostra). O\n  overflow é truncado por token (` · `) em vez de caractere.\n- `HelpModal` — overlay centralizado listando todas as keybindings em seções\n  (o \"?\" de todo TUI), com scroll e fechamento por `q`/`esc`. Só precisa do\n  tema; a lib cuida do posicionamento.\n- `Binding` — alias para `key.Binding` (bubbles/key), exposto pelo pacote\n  pra apps não precisarem importar a bubbles diretamente pra declarar atalhos.\n\n### Changed\n\n- `tabelatuiui` agora depende de `bubbles`/`bubbletea` (para os tipos\n  `key.Binding` usados por `Footer`/`HelpModal`).",
+		"source": "changelog"
+	},
+	{
+		"repo": "tabelatuiui",
+		"version": "0.1.1",
+		"date": "2026-08-09",
+		"title": "tabelatuiui 0.1.1",
+		"body": "### Changed\n\n- `Header` agora usa o background do accent (Primary) com texto Base, em vez\n  de mantle + texto accent — o cabeçalho fica visível contra terminal escuro.\n- `Modal` passou a usar borda do accent (Primary) no lugar de lavender.\n- `Header`/`Footer` ficam flush contra as bordas do terminal, com padding\n  horizontal de 2 colunas (removido o antigo padding interno que os apps\n  precisavam compensar).",
+		"source": "changelog"
+	},
+	{
+		"repo": "tabelakanban",
+		"version": "0.2.0",
+		"date": "2026-08-06",
+		"title": "v0.2.0",
+		"body": "## v0.2.0 — kanban com navegação hjkl, sidebar, preview, due dates e formulários estilo djobs\n\nMaior release até aqui. Resumo das mudanças:\n\n**Navegação hjkl**\n- `h`/`l` navegam colunas (na primeira, `h` entra na sidebar de boards), `j`/`k` cards, `H`/`L` movem card, `ctrl+h`/`ctrl+l` reordenam coluna.\n- Sidebar de boards colapsável (`ctrl+e`); preview do markdown do card (`o`); página de log de atividades (`g`).\n\n**Due dates**\n- `t` define/limpa o due date do card (formato `DD/MM`), guardado no front-matter do `.md` e exibido no rodapé do card (vermelho quando vencido).\n\n**Formulários estilo djobs (`huh`)**\n- Todos os prompts (novo card/coluna/board, renomear, due) agora são formulários com label, placeholder e navegação — criar card já pergunta título + due.\n\n**Outros**\n- Colunas redimensionam pra preencher a tela; seleção de card é um retângulo accent completo.\n- Notificações numa linha reservada (não quebram mais a borda das colunas).\n- `ctrl+r` dá retorno (\"recarregado — N boards\").\n- IPC: novos `cards.create` / `cards.move`.\n\nBinários para linux (amd64/arm64) e darwin (amd64/arm64).\n",
+		"source": "release"
+	},
+	{
+		"repo": "tabelascaffold",
+		"version": "0.2.0",
+		"date": "2026-08-04",
+		"title": "v0.2.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.1.0...v0.2.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelakanban",
+		"version": "0.1.0",
+		"date": "2026-08-04",
+		"title": "v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/commits/v0.1.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaradar",
+		"version": "0.1.0",
+		"date": "2026-08-04",
+		"title": "v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/commits/v0.1.0",
+		"source": "release"
+	}
 ]
