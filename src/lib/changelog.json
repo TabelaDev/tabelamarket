@@ -1,6 +1,54 @@
 [
 	{
 		"repo": "tabelawebui",
+		"version": "0.23.0",
+		"date": "2026-08-14",
+		"title": "v0.23.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.22.0...v0.23.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.22.0",
+		"date": "2026-08-14",
+		"title": "v0.22.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.21.0...v0.22.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelakanban",
+		"version": "0.3.0",
+		"date": "2026-08-14",
+		"title": "v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/compare/v0.2.0...v0.3.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaradar",
+		"version": "0.3.2",
+		"date": "2026-08-14",
+		"title": "v0.3.2",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.1...v0.3.2",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaradar",
+		"version": "0.3.1",
+		"date": "2026-08-14",
+		"title": "v0.3.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.0...v0.3.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaradar",
+		"version": "0.3.0",
+		"date": "2026-08-14",
+		"title": "v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.1.0...v0.3.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
 		"version": "0.21.0",
 		"date": "2026-08-13",
 		"title": "v0.21.0",
@@ -21,22 +69,6 @@
 		"date": "2026-08-13",
 		"title": "v0.20.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.19.0...v0.20.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.17.0",
-		"date": "2026-08-12",
-		"title": "v0.17.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.15.1...v0.17.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "mcp-v0.1.1",
-		"date": "2026-08-12",
-		"title": "mcp-v0.1.1",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.17.0...mcp-v0.1.1",
 		"source": "release"
 	},
 	{
