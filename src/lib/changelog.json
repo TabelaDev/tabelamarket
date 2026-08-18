@@ -1,6 +1,14 @@
 [
 	{
 		"repo": "tabelawebui",
+		"version": "0.25.0",
+		"date": "2026-08-18",
+		"title": "v0.25.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.24.0...v0.25.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
 		"version": "0.24.0",
 		"date": "2026-08-15",
 		"title": "v0.24.0",
@@ -53,14 +61,6 @@
 		"date": "2026-08-14",
 		"title": "v0.3.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.1.0...v0.3.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.20.1",
-		"date": "2026-08-13",
-		"title": "v0.20.1",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.20.0...v0.20.1",
 		"source": "release"
 	},
 	{
