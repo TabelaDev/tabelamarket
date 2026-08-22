@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
-	import { ThemeToggle } from '@tabeladev/tabelawebui';
+	import { MarketingShell, Button } from '@tabeladev/tabelawebui';
+	import { PUBLIC_TABELAHUB_URL, PUBLIC_APP_URL } from '$env/static/public';
 
 	let { children } = $props();
 
@@ -15,28 +16,35 @@
 	const currentPath = $derived(page.url.pathname);
 </script>
 
-<div class="mx-auto flex min-h-svh w-full max-w-5xl flex-col border-x border-rule">
-	<header class="sticky top-0 z-40 border-b border-rule bg-paper/60 backdrop-blur-sm">
-		<div class="flex h-14 items-center justify-between gap-4 px-6">
-			<a href={resolve('/')} class="font-mono text-sm font-semibold tracking-tight">
-				tabela<span class="text-accent">hub</span>
-			</a>
-			<nav class="flex items-center gap-4 font-mono text-sm">
-				{#each navItems as item (item.href)}
-					<a
-						href={resolve(item.href)}
-						class={currentPath === item.href
-							? 'text-accent-ink underline decoration-accent underline-offset-4'
-							: 'text-ink-soft hover:text-ink'}
-					>
-						{item.label}
-					</a>
-				{/each}
-				<ThemeToggle />
-			</nav>
-		</div>
-	</header>
-	<main class="flex flex-1 flex-col">
-		{@render children()}
-	</main>
-</div>
+<MarketingShell
+	suffix="Market"
+	footerLinks={[
+		{ href: `${PUBLIC_TABELAHUB_URL}/privacidade`, label: 'Privacidade' },
+		{ href: `${PUBLIC_TABELAHUB_URL}/termos`, label: 'Termos de uso' },
+		{ href: 'https://github.com/TabelaDev/tabelamarket', label: 'Código-fonte' }
+	]}
+	footerLicense="AGPL-3.0 · SvelteKit + Cloudflare Workers"
+>
+	{#snippet header()}
+		<nav class="flex items-center gap-4 font-mono text-sm">
+			{#each navItems as item (item.href)}
+				<a
+					href={resolve(item.href)}
+					class={currentPath === item.href
+						? 'text-accent-ink underline decoration-accent underline-offset-4'
+						: 'text-ink-soft hover:text-ink'}
+				>
+					{item.label}
+				</a>
+			{/each}
+		</nav>
+	{/snippet}
+	{#snippet actions()}
+		<Button
+			href="{PUBLIC_TABELAHUB_URL}/login?redirect={encodeURIComponent(PUBLIC_APP_URL)}"
+			variant="ghost"
+			size="sm">Entrar</Button
+		>
+	{/snippet}
+	{@render children()}
+</MarketingShell>

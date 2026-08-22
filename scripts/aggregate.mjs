@@ -17,7 +17,7 @@ import { format, resolveConfig } from 'prettier';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TabelaDev';
-const SITE = 'tabelahub';
+const SITE = 'tabelamarket';
 /* Repos do org que não são produtos: o profile README (.github) e o portfolio
    da pessoa (tabelaport) — os dois são linkados à parte. */
 const EXCLUDED = new Set(['.github', 'tabelaport']);

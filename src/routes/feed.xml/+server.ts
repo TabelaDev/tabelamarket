@@ -1,6 +1,6 @@
 import { getAllNews } from '$lib/server/news';
 
-const SITE = 'https://tabelahub.ianptkcs-023.workers.dev';
+const SITE = 'https://tabelamarket.ianptkcs-023.workers.dev';
 
 function esc(s: string): string {
 	return s
@@ -28,7 +28,7 @@ export function GET() {
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>TabelaHub — News</title>
+    <title>TabelaMarket — News</title>
     <link>${SITE}</link>
     <description>O que estou fazendo e pensando na TabelaDev.</description>
     <language>pt-BR</language>

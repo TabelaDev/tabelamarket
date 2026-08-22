@@ -7,7 +7,7 @@
 	let { data } = $props<{ data: PageData }>();
 
 	const post = $derived(data.post);
-	const TITLE = $derived(`${post.title} — TabelaHub`);
+	const TITLE = $derived(`${post.title} — TabelaMarket`);
 	const DESCRIPTION = $derived(post.summary);
 	const canonical = $derived(`${page.url.origin}${page.url.pathname}`);
 </script>
@@ -17,7 +17,7 @@
 	<meta name="description" content={DESCRIPTION} />
 	<link rel="canonical" href={canonical} />
 	<meta property="og:type" content="article" />
-	<meta property="og:site_name" content="TabelaHub" />
+	<meta property="og:site_name" content="TabelaMarket" />
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:title" content={TITLE} />
 	<meta property="og:description" content={DESCRIPTION} />

@@ -1,10 +1,11 @@
 {
-	"name": "tabelahub",
+	"name": "tabelamarket",
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
 		"aggregate": "node scripts/aggregate.mjs",
+		"syndicate": "node scripts/syndicate.mjs",
 		"dev": "vite dev",
 		"build": "wrangler types && vite build",
 		"preview": "wrangler dev .svelte-kit/cloudflare/_worker.js --port 4173",
@@ -14,7 +15,9 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"gen": "wrangler types",
-		"deploy": "bun run aggregate && bun run build && wrangler deploy"
+		"deploy": "bun run aggregate && bun run build && wrangler deploy",
+		"link:twui": "bun add file:../tabelawebui",
+		"publish:twui": "bun add @tabeladev/tabelawebui@latest"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -43,7 +46,8 @@
 	},
 	"dependencies": {
 		"@lucide/svelte": "^1.28.0",
-		"@tabeladev/tabelawebui": "^0.18.0",
+		"@tabeladev/tabelawebui": "0.25.0",
+		"@tabeladev/tabelawebui": "file:../tabelawebui",
 		"front-matter": "^4.0.2",
 		"marked": "^15.0.6",
 		"mode-watcher": "^1.1.0"

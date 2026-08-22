@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { Button, Landing, SectionHeading } from '@tabeladev/tabelawebui';
+	import { Button, SectionHeading } from '@tabeladev/tabelawebui';
 	import ArrowLeftIcon from '@lucide/svelte/icons/arrow-left';
 	import UserRoundIcon from '@lucide/svelte/icons/user-round';
 	import HeartHandshakeIcon from '@lucide/svelte/icons/heart-handshake';
 
-	const TITLE = 'Sobre — TabelaHub';
+	const TITLE = 'Sobre — TabelaMarket';
 	const DESCRIPTION =
 		'Sobre a TabelaDev e o Ian, o desenvolvedor por trás: filosofia "auto custo", stack e onde encontrar o portfolio.';
 	const canonical = $derived(`${page.url.origin}${page.url.pathname}`);
@@ -16,7 +16,7 @@
 	<meta name="description" content={DESCRIPTION} />
 	<link rel="canonical" href={canonical} />
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="TabelaHub" />
+	<meta property="og:site_name" content="TabelaMarket" />
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:title" content={TITLE} />
 	<meta property="og:description" content={DESCRIPTION} />
@@ -98,11 +98,4 @@
 			</div>
 		</div>
 	</div>
-
-	<Landing.Footer
-		name="tabelahub"
-		tagline="o hub da TabelaDev"
-		license="AGPL-3.0 · SvelteKit + Cloudflare Workers"
-		repoUrl="https://github.com/TabelaDev/tabelahub"
-	/>
 </div>

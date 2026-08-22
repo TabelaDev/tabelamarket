@@ -4,7 +4,7 @@
 	import { Button, SectionHeading, Timeline } from '@tabeladev/tabelawebui';
 	import ArrowLeftIcon from '@lucide/svelte/icons/arrow-left';
 
-	const TITLE = 'Changelog — TabelaHub';
+	const TITLE = 'Changelog — TabelaMarket';
 	const DESCRIPTION =
 		'Histórico de releases de todos os repos públicos da TabelaDev, agregado automaticamente a partir dos CHANGELOG.md e das GitHub Releases.';
 	const canonical = $derived(`${page.url.origin}${page.url.pathname}`);
@@ -37,7 +37,7 @@
 	<meta name="description" content={DESCRIPTION} />
 	<link rel="canonical" href={canonical} />
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="TabelaHub" />
+	<meta property="og:site_name" content="TabelaMarket" />
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:title" content={TITLE} />
 	<meta property="og:description" content={DESCRIPTION} />

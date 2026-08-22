@@ -1,4 +1,4 @@
-# tabelahub — contexto essencial
+# tabelamarket — contexto essencial
 
 Site/hub central da TabelaDev (landing + news + changelog agregado). Repo **aberto**,
 AGPL-3.0. Este app segue as regras dos apps web da TabelaDev em

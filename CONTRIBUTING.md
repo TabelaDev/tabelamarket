@@ -1,4 +1,4 @@
-# Contributing to Tabelahub
+# Contributing to TabelaMarket
 
 **English** · [Português](CONTRIBUTING.pt-BR.md)
 

@@ -1,12 +1,12 @@
 ---
-title: Bem-vindo ao tabelahub
+title: Bem-vindo ao tabelamarket
 date: 2026-08-12
 summary: O hub central da TabelaDev tá no ar — landing, news e changelog agregado dos produtos. Por que ele existe e o que você vai encontrar aqui.
-tags: [tabelahub]
+tags: [tabelamarket]
 featured: true
 ---
 
-O `tabelahub` é o ponto de entrada da TabelaDev: uma landing que amarra todos os
+O `tabelamarket` é o ponto de entrada da TabelaDev: uma landing que amarra todos os
 produtos, um feed de news com o que eu ando fazendo e pensando, e um changelog
 que se mantém sozinho a partir das releases.
 
@@ -29,6 +29,6 @@ Cada repo tem seu README, mas nada amarrava a coisa toda. O hub é esse fio
 condutor: da landing você chega no repo, do changelog você vê o projeto ganhar
 vida, das news você entende o _porquê_ por trás das decisões.
 
-O site inteiro é open source — [`tabelahub`](https://github.com/TabelaDev/tabelahub)
+O site inteiro é open source — [`tabelamarket`](https://github.com/TabelaDev/tabelamarket)
 — e construído em cima do próprio [`tabelawebui`](https://github.com/TabelaDev/tabelawebui),
 a nossa lib de tema e componentes. É o mesmo estilo dos apps, dogfooding total.

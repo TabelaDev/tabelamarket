@@ -1,6 +1,6 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
-	"name": "tabelahub",
+	"name": "tabelamarket",
 	"compatibility_date": "2026-08-12",
 	"compatibility_flags": ["nodejs_als"],
 	"main": ".svelte-kit/cloudflare/_worker.js",
@@ -9,5 +9,9 @@
 		"directory": ".svelte-kit/cloudflare"
 	},
 	"workers_dev": true,
-	"preview_urls": true
+	"preview_urls": true,
+	"vars": {
+		"PUBLIC_TABELAHUB_URL": "https://tabelahub.ianptkcs-023.workers.dev",
+		"PUBLIC_APP_URL": "https://tabelamarket.ianptkcs-023.workers.dev"
+	}
 }
