@@ -6,7 +6,7 @@
  *  - changelog.json: entradas de release (GitHub Releases) + seções
  *    `## [v] - data` dos CHANGELOG.md de cada repo público.
  *
- * Depende do `gh` (CLI) autenticado — local e nos runners do GitHub.
+ * Depende do `gh` (CLI) autenticado - local e nos runners do GitHub.
  * Saída commitada: build consome os JSONs sem rede.
  */
 import { execFileSync } from 'node:child_process';
@@ -19,7 +19,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TabelaDev';
 const SITE = 'tabelamarket';
 /* Repos do org que não são produtos: o profile README (.github) e o portfolio
-   da pessoa (tabelaport) — os dois são linkados à parte. */
+   da pessoa (tabelaport) - os dois são linkados à parte. */
 const EXCLUDED = new Set(['.github', 'tabelaport']);
 
 /* Overlay curado: o que o script NÃO decide sozinho. Chave = nome do repo.
@@ -30,7 +30,7 @@ const overlay = {
 		featured: true,
 		kind: 'web',
 		accent: 'var(--ctp-green)',
-		tagline: 'Finanças pessoais com IA e Open Finance — auto custo, suas chaves (BYOK).'
+		tagline: 'Finanças pessoais com IA e Open Finance - auto custo, suas chaves (BYOK).'
 	},
 	tabelacal: {
 		order: 2,
@@ -63,7 +63,7 @@ const overlay = {
 		featured: false,
 		kind: 'os',
 		accent: 'var(--ctp-teal)',
-		tagline: 'Instalador do Arch Linux com gum — archiso + LUKS2, testado em QEMU.'
+		tagline: 'Instalador do Arch Linux com gum - archiso + LUKS2, testado em QEMU.'
 	},
 	tabelatuiui: {
 		order: 6,
@@ -202,7 +202,7 @@ async function main() {
 		.sort((a, b) => (a.date < b.date ? 1 : -1))
 		.slice(0, 50);
 
-	/* Saída em formato prettier (tabs, quebra de linha) — o CI roda
+	/* Saída em formato prettier (tabs, quebra de linha) - o CI roda
 	   `prettier --check` e os JSONs são commitados, então a saída tem que
 	   casar com o prettier do repo. */
 	const prettierConfig = await resolveConfig(join(ROOT, 'prettier.config.js'));

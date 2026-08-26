@@ -132,7 +132,7 @@ async function main() {
 			console.log(
 				`  dev.to: título="${title}" tags=[${tags.slice(0, 4)}] body=${body.length} chars`
 			);
-			console.log(`  bsky: "${title}" — ${summary}`);
+			console.log(`  bsky: "${title}" - ${summary}`);
 			continue;
 		}
 
@@ -152,7 +152,7 @@ async function main() {
 			failures.push(`  bsky: ${e.message}`);
 		}
 
-		/* Registra o que publicou mesmo que parte tenha falhado — re-run retoma o resto. */
+		/* Registra o que publicou mesmo que parte tenha falhado - re-run retoma o resto. */
 		if (entry.devtoId || entry.bskyUri) {
 			state[slug] = entry;
 			posted++;

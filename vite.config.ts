@@ -1,6 +1,7 @@
 import tailwindcss from '@tailwindcss/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { readFileSync } from 'node:fs';
+import { mdsvex } from 'mdsvex';
 import { defineConfig } from 'vite';
 
 function devPort() {
@@ -20,5 +21,5 @@ export default defineConfig({
 	server: {
 		port: devPort()
 	},
-	plugins: [tailwindcss(), sveltekit()]
+	plugins: [tailwindcss(), mdsvex(), sveltekit()]
 });

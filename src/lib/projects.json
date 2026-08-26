@@ -2,7 +2,7 @@
 	{
 		"name": "tabelafin",
 		"description": "Finanças pessoais com IA e Open Finance (Nubank + XP), auto custo (BYOK)",
-		"tagline": "Finanças pessoais com IA e Open Finance — auto custo, suas chaves (BYOK).",
+		"tagline": "Finanças pessoais com IA e Open Finance - auto custo, suas chaves (BYOK).",
 		"language": "TypeScript",
 		"kind": "web",
 		"accent": "var(--ctp-green)",
@@ -11,7 +11,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelafin",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-20T00:13:07Z",
+		"pushed_at": "2026-08-22T16:13:15Z",
 		"links": {}
 	},
 	{
@@ -26,7 +26,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelacal",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-20T00:13:02Z",
+		"pushed_at": "2026-08-22T16:10:32Z",
 		"links": {}
 	},
 	{
@@ -41,7 +41,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelavagas",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-11T17:25:14Z",
+		"pushed_at": "2026-08-25T19:14:55Z",
 		"links": {}
 	},
 	{
@@ -56,7 +56,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelawebui",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-20T03:44:55Z",
+		"pushed_at": "2026-08-26T22:27:04Z",
 		"links": {
 			"npm": "https://www.npmjs.com/package/@tabeladev/tabelawebui",
 			"npmMcp": "https://www.npmjs.com/package/@tabeladev/mcp-tabelawebui"
@@ -64,9 +64,9 @@
 	},
 	{
 		"name": "tabelaos",
-		"description": "TabelaOS — gum-styled Arch Linux migration installer, archiso+LUKS2, tested in QEMU",
-		"tagline": "Instalador do Arch Linux com gum — archiso + LUKS2, testado em QEMU.",
-		"language": "Shell",
+		"description": "TabelaOS — shared target-stack spec for TabelaArch and TabelaNix: niri + DankMaterialShell, hardware facts, NVIDIA/Optimus config, package equivalence table",
+		"tagline": "Instalador do Arch Linux com gum - archiso + LUKS2, testado em QEMU.",
+		"language": "",
 		"kind": "os",
 		"accent": "var(--ctp-teal)",
 		"featured": false,
@@ -74,7 +74,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelaos",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-11T17:25:04Z",
+		"pushed_at": "2026-08-22T17:21:56Z",
 		"links": {}
 	},
 	{
@@ -89,7 +89,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelatuiui",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-11T17:25:16Z",
+		"pushed_at": "2026-08-22T17:00:40Z",
 		"links": {}
 	},
 	{
@@ -104,7 +104,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelakanban",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-14T20:57:40Z",
+		"pushed_at": "2026-08-25T19:14:19Z",
 		"links": {}
 	},
 	{
@@ -119,7 +119,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelaradar",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-14T23:34:18Z",
+		"pushed_at": "2026-08-25T19:14:30Z",
 		"links": {}
 	},
 	{
@@ -134,22 +134,22 @@
 		"html_url": "https://github.com/TabelaDev/tabelascaffold",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-20T00:12:57Z",
+		"pushed_at": "2026-08-25T19:14:43Z",
 		"links": {}
 	},
 	{
-		"name": "tabelamarket",
-		"description": "Hub central da TabelaDev: landing + news + changelog agregado dos produtos (web + TUI + OS). SvelteKit + tabelawebui.",
-		"tagline": "Hub central da TabelaDev: landing + news + changelog agregado dos produtos (web + TUI + OS). SvelteKit + tabelawebui.",
-		"language": "Svelte",
+		"name": "tabelaarch",
+		"description": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
+		"tagline": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
+		"language": "Shell",
 		"kind": "web",
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TabelaDev/tabelamarket",
+		"html_url": "https://github.com/TabelaDev/tabelaarch",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-21T06:00:51Z",
+		"pushed_at": "2026-08-22T19:15:10Z",
 		"links": {}
 	},
 	{
@@ -164,7 +164,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelainvest",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-20T00:12:59Z",
+		"pushed_at": "2026-08-22T16:09:24Z",
 		"links": {}
 	},
 	{
@@ -179,7 +179,52 @@
 		"html_url": "https://github.com/TabelaDev/tabelawt",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-14T11:57:56Z",
+		"pushed_at": "2026-08-22T16:05:32Z",
+		"links": {}
+	},
+	{
+		"name": "tabelanix",
+		"description": "TabelaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
+		"tagline": "TabelaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
+		"language": "",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TabelaDev/tabelanix",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-22T17:22:57Z",
+		"links": {}
+	},
+	{
+		"name": "tabelaquickrun",
+		"description": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
+		"tagline": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
+		"language": "QML",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TabelaDev/tabelaquickrun",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-23T16:53:23Z",
+		"links": {}
+	},
+	{
+		"name": "tjobs-packs",
+		"description": "Registry de job packs para o tjobs",
+		"tagline": "Registry de job packs para o tjobs",
+		"language": "Shell",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TabelaDev/tjobs-packs",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-26T01:40:36Z",
 		"links": {}
 	}
 ]

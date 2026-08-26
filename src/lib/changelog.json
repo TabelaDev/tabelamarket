@@ -1,5 +1,77 @@
 [
 	{
+		"repo": "tjobs-packs",
+		"version": "0.1.0",
+		"date": "2026-08-26",
+		"title": "v0.1.0",
+		"body": "Initial registry release.\n\n- `index.json` consumed by tjobs' pack browser (`p` in the TUI, or `tjobs packs list`)\n- **model-monitor** pack: LLM pricing watchdog via models.dev (free-to-paid alerts, watchlist price moves, new free model discovery), suggested schedule every 6h\n\nInstall: `tjobs install https://github.com/TabelaDev/tjobs-packs#model-monitor`",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.28.0",
+		"date": "2026-08-26",
+		"title": "v0.28.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.26.0...v0.28.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelavagas",
+		"version": "0.2.0",
+		"date": "2026-08-25",
+		"title": "v0.2.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/compare/v0.1.0...v0.2.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelascaffold",
+		"version": "0.6.0",
+		"date": "2026-08-25",
+		"title": "v0.6.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.5.0...v0.6.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelakanban",
+		"version": "0.4.0",
+		"date": "2026-08-25",
+		"title": "v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/compare/v0.3.0...v0.4.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaradar",
+		"version": "0.4.0",
+		"date": "2026-08-25",
+		"title": "v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.3...v0.4.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaradar",
+		"version": "0.3.3",
+		"date": "2026-08-25",
+		"title": "v0.3.3",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.2...v0.3.3",
+		"source": "release"
+	},
+	{
+		"repo": "tabelaquickrun",
+		"version": "1.0.0",
+		"date": "2026-08-23",
+		"title": "v1.0.0",
+		"body": "Initial release.\n\n- Launcher plugin: type a command and run it via `fish -lc`.\n- Live suggestions matched against `functions -n`/`abbr --show` (exact → prefix → substring), each showing the function's source file or the abbreviation's expansion.\n- Configurable trigger character and max suggestion count via Settings → Plugins → Quick Run.",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.26.0",
+		"date": "2026-08-23",
+		"title": "v0.26.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.25.0...v0.26.0",
+		"source": "release"
+	},
+	{
 		"repo": "tabelawebui",
 		"version": "0.25.0",
 		"date": "2026-08-18",
@@ -13,14 +85,6 @@
 		"date": "2026-08-15",
 		"title": "v0.24.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.23.0...v0.24.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.23.0",
-		"date": "2026-08-14",
-		"title": "v0.23.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.22.0...v0.23.0",
 		"source": "release"
 	},
 	{
@@ -61,14 +125,6 @@
 		"date": "2026-08-14",
 		"title": "v0.3.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.1.0...v0.3.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.20.0",
-		"date": "2026-08-13",
-		"title": "v0.20.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.19.0...v0.20.0",
 		"source": "release"
 	},
 	{
@@ -144,27 +200,11 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelascaffold",
-		"version": "0.2.0",
-		"date": "2026-08-04",
-		"title": "v0.2.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.1.0...v0.2.0",
-		"source": "release"
-	},
-	{
 		"repo": "tabelakanban",
 		"version": "0.1.0",
 		"date": "2026-08-04",
 		"title": "v0.1.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/commits/v0.1.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelaradar",
-		"version": "0.1.0",
-		"date": "2026-08-04",
-		"title": "v0.1.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/commits/v0.1.0",
 		"source": "release"
 	}
 ]

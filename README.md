@@ -2,7 +2,7 @@
 
 # TabelaMarket
 
-**The hub of TabelaDev — landing, news and an auto-aggregated changelog for the
+**The hub of TabelaDev - landing, news and an auto-aggregated changelog for the
 products (web apps, TUIs and shared libraries).**
 
 **English** · [Português](README.pt-BR.md)
@@ -23,11 +23,12 @@ products (web apps, TUIs and shared libraries).**
 The single entry point for TabelaDev: a landing page that ties the products
 together, a news feed (`content/news/`, Markdown) with notes on what is being
 built and why, and a changelog that aggregates the releases of every public repo
-— kept up to date from each repo's `CHANGELOG.md` and GitHub Releases, with no
-manual registration.
+
+- kept up to date from each repo's `CHANGELOG.md` and GitHub Releases, with no
+  manual registration.
 
 The whole site is built on [`tabelawebui`](https://github.com/TabelaDev/tabelawebui),
-the shared theme and chrome library — same look and tokens as the apps it
+the shared theme and chrome library - same look and tokens as the apps it
 advertises.
 
 ## Stack
@@ -41,8 +42,8 @@ so the Worker needs no filesystem.
 `scripts/aggregate.mjs` (depends on the `gh` CLI) writes the two committed
 data files the site renders:
 
-- `src/lib/projects.json` — public repos of the org, with a curated overlay.
-- `src/lib/changelog.json` — release + changelog entries across repos.
+- `src/lib/projects.json` - public repos of the org, with a curated overlay.
+- `src/lib/changelog.json` - release + changelog entries across repos.
 
 The build does not fetch anything: `bun run aggregate` runs before deploy.
 

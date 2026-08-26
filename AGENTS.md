@@ -1,8 +1,8 @@
-# tabelamarket — contexto essencial
+# tabelamarket - contexto essencial
 
 Site/hub central da TabelaDev (landing + news + changelog agregado). Repo **aberto**,
 AGPL-3.0. Este app segue as regras dos apps web da TabelaDev em
-`tabelawebui/docs/convencoes-web.md` — leia esse arquivo antes de mexer. O README do
+`tabelawebui/docs/convencoes-web.md` - leia esse arquivo antes de mexer. O README do
 repo e o CONTRIBUTING (política de linguagem) também valem.
 
 ## O que é cada parte
@@ -12,7 +12,7 @@ repo e o CONTRIBUTING (política de linguagem) também valem.
   `src/lib/changelog.json`), gerados por `scripts/aggregate.mjs`.
 - **News** (`(marketing)/news/`): posts em `content/news/<slug>.md` com frontmatter
   (title, date, summary, tags, featured). Pipeline: `front-matter` + `marked`, renderizado
-  server-side via `src/lib/server/news.ts` (`import.meta.glob` — não há filesystem no
+  server-side via `src/lib/server/news.ts` (`import.meta.glob` - não há filesystem no
   Worker, o conteúdo entra no bundle).
 - **Changelog** (`(marketing)/changelog/`): timeline das releases, agregada dos
   `CHANGELOG.md`/GitHub Releases dos repos públicos do org.
@@ -27,7 +27,7 @@ repo e o CONTRIBUTING (política de linguagem) também valem.
 ## Dados (agregação)
 
 `bun run aggregate` roda `scripts/aggregate.mjs` (usa o `gh` CLI) e reescreve os dois
-JSONs commitados. O build **não** roda a agregação — o deploy roda antes. Cobertura:
+JSONs commitados. O build **não** roda a agregação - o deploy roda antes. Cobertura:
 só repos públicos; `tabelaport` e `.github` ficam de fora (linkados à parte).
 
 ## Comandos

@@ -2,7 +2,7 @@
 
 # TabelaMarket
 
-**O hub da TabelaDev — landing, news e um changelog agregado automaticamente
+**O hub da TabelaDev - landing, news e um changelog agregado automaticamente
 pros produtos (apps web, TUIs e libs compartilhadas).**
 
 [English](README.md) · **Português**
@@ -22,13 +22,13 @@ pros produtos (apps web, TUIs e libs compartilhadas).**
 
 O ponto de entrada único da TabelaDev: uma landing que amarra os produtos, um
 feed de news (`content/news/`, em Markdown) com notas sobre o que está sendo
-feito e o porquê, e um changelog que agrega as releases de cada repo público —
+feito e o porquê, e um changelog que agrega as releases de cada repo público -
 atualizado a partir dos `CHANGELOG.md` e das GitHub Releases, sem registro
 manual.
 
 O site inteiro é construído em cima do
 [`tabelawebui`](https://github.com/TabelaDev/tabelawebui), a lib de tema e chrome
-compartilhada — mesma estética e tokens dos apps que ele apresenta.
+compartilhada - mesma estética e tokens dos apps que ele apresenta.
 
 ## Stack
 
@@ -41,8 +41,8 @@ SvelteKit 2 + Svelte 5 (runes), Tailwind v4, `@sveltejs/adapter-cloudflare`
 O `scripts/aggregate.mjs` (depende do CLI `gh`) escreve os dois arquivos de dados
 commitados que o site renderiza:
 
-- `src/lib/projects.json` — repos públicos do org, com overlay curado.
-- `src/lib/changelog.json` — entradas de release + changelog entre repos.
+- `src/lib/projects.json` - repos públicos do org, com overlay curado.
+- `src/lib/changelog.json` - entradas de release + changelog entre repos.
 
 O build não busca nada: `bun run aggregate` roda antes do deploy.
 

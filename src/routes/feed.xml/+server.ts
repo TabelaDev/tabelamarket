@@ -28,9 +28,9 @@ export function GET() {
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>TabelaMarket — News</title>
+    <title>TabelaMarket - News</title>
     <link>${SITE}</link>
-    <description>O que estou fazendo e pensando na TabelaDev.</description>
+    <description>O que eu ando fazendo e pensando na TabelaDev.</description>
     <language>pt-BR</language>
     ${items}
   </channel>
