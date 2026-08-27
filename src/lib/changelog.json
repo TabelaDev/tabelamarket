@@ -1,5 +1,13 @@
 [
 	{
+		"repo": "tabela-whisper",
+		"version": "1.0.0",
+		"date": "2026-08-27",
+		"title": "v1.0.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabela-whisper/commits/v1.0.0",
+		"source": "release"
+	},
+	{
 		"repo": "tjobs-packs",
 		"version": "0.1.0",
 		"date": "2026-08-26",

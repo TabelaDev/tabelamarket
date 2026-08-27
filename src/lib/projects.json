@@ -226,5 +226,20 @@
 		"topics": [],
 		"pushed_at": "2026-08-26T01:40:36Z",
 		"links": {}
+	},
+	{
+		"name": "tabela-whisper",
+		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"tagline": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"language": "Python",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TabelaDev/tabela-whisper",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-27T04:23:08Z",
+		"links": {}
 	}
 ]
