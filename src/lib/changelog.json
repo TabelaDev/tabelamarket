@@ -8,6 +8,30 @@
 		"source": "release"
 	},
 	{
+		"repo": "tabelawebui",
+		"version": "0.28.4",
+		"date": "2026-08-27",
+		"title": "v0.28.4",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.2...v0.28.4",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.28.2",
+		"date": "2026-08-27",
+		"title": "v0.28.2",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.1...v0.28.2",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawebui",
+		"version": "0.28.1",
+		"date": "2026-08-27",
+		"title": "v0.28.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.0...v0.28.1",
+		"source": "release"
+	},
+	{
 		"repo": "tjobs-packs",
 		"version": "0.1.0",
 		"date": "2026-08-26",
@@ -77,30 +101,6 @@
 		"date": "2026-08-23",
 		"title": "v0.26.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.25.0...v0.26.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.25.0",
-		"date": "2026-08-18",
-		"title": "v0.25.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.24.0...v0.25.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.24.0",
-		"date": "2026-08-15",
-		"title": "v0.24.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.23.0...v0.24.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelawebui",
-		"version": "0.22.0",
-		"date": "2026-08-14",
-		"title": "v0.22.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.21.0...v0.22.0",
 		"source": "release"
 	},
 	{
