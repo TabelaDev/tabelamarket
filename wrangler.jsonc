@@ -11,7 +11,7 @@
 	"workers_dev": true,
 	"preview_urls": true,
 	"vars": {
-		"PUBLIC_TABELAHUB_URL": "https://tabelahub.ianptkcs-023.workers.dev",
+		"PUBLIC_TABELAUTH_URL": "https://tabelaauth.ianptkcs-023.workers.dev",
 		"PUBLIC_APP_URL": "https://tabelamarket.ianptkcs-023.workers.dev"
 	}
 }
