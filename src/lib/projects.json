@@ -11,7 +11,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelafin",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-27T20:13:02Z",
+		"pushed_at": "2026-09-01T21:34:19Z",
 		"links": {}
 	},
 	{
@@ -164,7 +164,7 @@
 		"html_url": "https://github.com/TabelaDev/tabelainvest",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-22T16:09:24Z",
+		"pushed_at": "2026-09-01T21:35:39Z",
 		"links": {}
 	},
 	{
@@ -228,7 +228,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabela-whisper",
+		"name": "tabelawhisper",
 		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
 		"tagline": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
 		"language": "Python",
@@ -236,10 +236,10 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TabelaDev/tabela-whisper",
+		"html_url": "https://github.com/TabelaDev/tabelawhisper",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-27T04:23:08Z",
+		"pushed_at": "2026-09-01T19:33:00Z",
 		"links": {}
 	}
 ]

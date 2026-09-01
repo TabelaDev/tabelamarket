@@ -1,6 +1,14 @@
 [
 	{
-		"repo": "tabela-whisper",
+		"repo": "tabelawhisper",
+		"version": "1.0.1",
+		"date": "2026-09-01",
+		"title": "v1.0.1",
+		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TabelaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TabelaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TabelaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TabelaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelawhisper",
 		"version": "1.0.0",
 		"date": "2026-08-27",
 		"title": "v1.0.0",
