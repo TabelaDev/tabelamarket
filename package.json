@@ -17,7 +17,7 @@
 		"gen": "wrangler types",
 		"deploy": "bun run aggregate && bun run build && wrangler deploy",
 		"link:twui": "bun add file:../tabelhawebui",
-		"publish:twui": "bun add @tabelhadev/tabelawebui@latest"
+		"publish:twui": "bun add @tabelhadev/tabelhawebui@latest"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -47,7 +47,7 @@
 	},
 	"dependencies": {
 		"@lucide/svelte": "^1.28.0",
-		"@tabelhadev/tabelawebui": "^0.28.4",
+		"@tabelhadev/tabelhawebui": "^0.28.4",
 		"front-matter": "^4.0.2",
 		"mode-watcher": "^1.1.0"
 	},
