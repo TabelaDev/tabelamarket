@@ -1,4 +1,4 @@
-# Contribuindo com o TabelaHub
+# Contribuindo com o TAbelhaHub
 
 [English](CONTRIBUTING.md) · **Português**
 

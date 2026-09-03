@@ -1,6 +1,6 @@
 <div align="center">
 
-# TabelaHub
+# TAbelhaHub
 
 **O hub da TAbelhaDev - landing, news e um changelog agregado automaticamente
 pros produtos (apps web, TUIs e libs compartilhadas).**

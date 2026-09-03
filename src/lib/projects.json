@@ -1,6 +1,6 @@
 [
 	{
-		"name": "tabelafin",
+		"name": "tabelhafin",
 		"description": "Finanças pessoais com IA e Open Finance (Nubank + XP), auto custo (BYOK)",
 		"tagline": "Finanças pessoais com IA e Open Finance - auto custo, suas chaves (BYOK).",
 		"language": "TypeScript",
@@ -8,14 +8,14 @@
 		"accent": "var(--ctp-green)",
 		"featured": true,
 		"order": 1,
-		"html_url": "https://github.com/TAbelhaDev/tabelafin",
+		"html_url": "https://github.com/TAbelhaDev/tabelhafin",
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-01T21:34:19Z",
 		"links": {}
 	},
 	{
-		"name": "tabelacal",
+		"name": "tabelhacal",
 		"description": "Agenda com IA em linguagem natural com \"auto custo\"",
 		"tagline": "Agenda com IA em linguagem natural, no mesmo espírito \"auto custo\".",
 		"language": "TypeScript",
@@ -23,7 +23,7 @@
 		"accent": "var(--ctp-peach)",
 		"featured": true,
 		"order": 2,
-		"html_url": "https://github.com/TAbelhaDev/tabelacal",
+		"html_url": "https://github.com/TAbelhaDev/tabelhacal",
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-08-22T16:10:32Z",
@@ -45,7 +45,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabelawebui",
+		"name": "tabelhawebui",
 		"description": "",
 		"tagline": "Tema + chrome compartilhado dos apps web: Catppuccin com estética \"reading someone's source file\".",
 		"language": "Svelte",
@@ -183,7 +183,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabelainvest",
+		"name": "tabelhainvest",
 		"description": "",
 		"tagline": "",
 		"language": "HTML",
@@ -191,7 +191,7 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelainvest",
+		"html_url": "https://github.com/TAbelhaDev/tabelhainvest",
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-01T21:35:39Z",

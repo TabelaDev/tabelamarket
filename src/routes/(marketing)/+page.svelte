@@ -11,7 +11,7 @@
 
 	let { data } = $props<{ data: PageData }>();
 
-	const TITLE = 'TabelaHub';
+	const TITLE = 'TAbelhaHub';
 	const DESCRIPTION =
 		'Landing, news e changelog agregado dos produtos da TAbelhaDev: apps web, TUIs, libs e scripts com a filosofia do software livre.';
 
@@ -64,7 +64,7 @@
 	<Wordmark prefix="Tabela" suffix="Hub" />
 {/snippet}
 
-<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
+<Page.Seo siteName="TAbelhaHub" title={TITLE} description={DESCRIPTION} />
 
 <Landing>
 	<Landing.Hero eyebrow="O hub da TAbelhaDev" title={heroTitle} lead={HERO_LEAD} note={HERO_NOTE}>

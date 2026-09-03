@@ -9,7 +9,7 @@
 	let { data } = $props<{ data: PageData }>();
 
 	const post = $derived(data.post);
-	const TITLE = $derived(`${post.title} - TabelaHub`);
+	const TITLE = $derived(`${post.title} - TAbelhaHub`);
 	const DESCRIPTION = $derived(post.summary);
 
 	const projectNames = new Set(projects.map((p: Project) => p.name));
@@ -26,7 +26,7 @@
 	const Post = $derived(modules[`../../../../../content/news/${post.slug}.md`]?.default ?? null);
 </script>
 
-<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} type="article" />
+<Page.Seo siteName="TAbelhaHub" title={TITLE} description={DESCRIPTION} type="article" />
 
 <Page>
 	<Page.Header title={post.title} back={{ label: 'News', href: '/news' }}>

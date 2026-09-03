@@ -1,6 +1,6 @@
 <div align="center">
 
-# TabelaHub
+# TAbelhaHub
 
 **The hub of TAbelhaDev - landing, news and an auto-aggregated changelog for the
 products (web apps, TUIs and shared libraries).**

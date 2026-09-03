@@ -28,7 +28,7 @@ export function GET() {
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>TabelaHub - News</title>
+    <title>TAbelhaHub - News</title>
     <link>${SITE}</link>
     <description>O que eu ando fazendo e pensando na TAbelhaDev.</description>
     <language>pt-BR</language>

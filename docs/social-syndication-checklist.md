@@ -5,9 +5,9 @@ workflow syndicate.yml). Falta a parte manual e os passos de ativação.
 
 ## 1. Contas (manual)
 
-- [ ] Criar Bluesky `@tabeladev.bsky.social`
+- [ ] Criar Bluesky `@tabelhadev.bsky.social`
 - [ ] Criar dev.to `dev.to/tabeladev`
-- [ ] Criar Mastodon `@tabeladev@<instância>` (definir qual instância)
+- [ ] Criar Mastodon `@tabelhadev@<instância>` (definir qual instância)
 
 ## 2. Credenciais
 

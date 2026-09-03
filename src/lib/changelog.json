@@ -4,7 +4,7 @@
 		"version": "1.0.1",
 		"date": "2026-09-01",
 		"title": "v1.0.1",
-		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TabelaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
+		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TAbelhaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
 		"source": "release"
 	},
 	{
@@ -16,7 +16,7 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelawebui",
+		"repo": "tabelhawebui",
 		"version": "0.28.4",
 		"date": "2026-08-27",
 		"title": "v0.28.4",
@@ -24,7 +24,7 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelawebui",
+		"repo": "tabelhawebui",
 		"version": "0.28.2",
 		"date": "2026-08-27",
 		"title": "v0.28.2",
@@ -32,7 +32,7 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelawebui",
+		"repo": "tabelhawebui",
 		"version": "0.28.1",
 		"date": "2026-08-27",
 		"title": "v0.28.1",
@@ -48,7 +48,7 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelawebui",
+		"repo": "tabelhawebui",
 		"version": "0.28.0",
 		"date": "2026-08-26",
 		"title": "v0.28.0",
@@ -104,7 +104,7 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelawebui",
+		"repo": "tabelhawebui",
 		"version": "0.26.0",
 		"date": "2026-08-23",
 		"title": "v0.26.0",
