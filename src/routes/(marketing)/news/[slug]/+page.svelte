@@ -2,7 +2,7 @@
 	import { resolve } from '$app/paths';
 	import type { Component } from 'svelte';
 	import type { PageData } from './$types';
-	import { Badge, Page, Prose } from '@tabeladev/tabelawebui';
+	import { Badge, Page, Prose } from '@tabelhadev/tabelhawebui';
 	import { projects, type Project } from '$lib/hub-data';
 	import { friendlyDate } from '$lib/date';
 

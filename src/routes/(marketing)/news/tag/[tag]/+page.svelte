@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import type { PageData } from './$types';
-	import { Badge, Button, Page } from '@tabeladev/tabelawebui';
+	import { Badge, Button, Page } from '@tabelhadev/tabelhawebui';
 	import NewsItem from '$lib/components/news/NewsItem.svelte';
 	import ExternalLinkIcon from '@lucide/svelte/icons/external-link';
 	import GitForkIcon from '@lucide/svelte/icons/git-fork';

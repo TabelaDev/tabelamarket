@@ -2,7 +2,7 @@
 
 # TabelaHub
 
-**The hub of TabelaDev - landing, news and an auto-aggregated changelog for the
+**The hub of TAbelhaDev - landing, news and an auto-aggregated changelog for the
 products (web apps, TUIs and shared libraries).**
 
 **English** · [Português](README.pt-BR.md)
@@ -10,7 +10,7 @@ products (web apps, TUIs and shared libraries).**
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-Svelte-ff3e00?style=flat-square&logo=svelte&logoColor=white)](https://kit.svelte.dev)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange?style=flat-square&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square)](LICENSE)
-[![Built with tabelawebui](https://img.shields.io/badge/theme-tabelawebui-d6b4f7?style=flat-square)](https://github.com/TabelaDev/tabelawebui)
+[![Built with tabelhawebui](https://img.shields.io/badge/theme-tabelhawebui-d6b4f7?style=flat-square)](https://github.com/TAbelhaDev/tabelhawebui)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ianptkcs)
 
@@ -20,14 +20,14 @@ products (web apps, TUIs and shared libraries).**
 
 ## What it is
 
-The single entry point for TabelaDev: a landing page that ties the products
+The single entry point for TAbelhaDev: a landing page that ties the products
 together, a news feed (`content/news/`, Markdown) with notes on what is being
 built and why, and a changelog that aggregates the releases of every public repo
 
 - kept up to date from each repo's `CHANGELOG.md` and GitHub Releases, with no
   manual registration.
 
-The whole site is built on [`tabelawebui`](https://github.com/TabelaDev/tabelawebui),
+The whole site is built on [`tabelhawebui`](https://github.com/TAbelhaDev/tabelhawebui),
 the shared theme and chrome library - same look and tokens as the apps it
 advertises.
 

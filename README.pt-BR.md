@@ -2,7 +2,7 @@
 
 # TabelaHub
 
-**O hub da TabelaDev - landing, news e um changelog agregado automaticamente
+**O hub da TAbelhaDev - landing, news e um changelog agregado automaticamente
 pros produtos (apps web, TUIs e libs compartilhadas).**
 
 [English](README.md) · **Português**
@@ -10,7 +10,7 @@ pros produtos (apps web, TUIs e libs compartilhadas).**
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-Svelte-ff3e00?style=flat-square&logo=svelte&logoColor=white)](https://kit.svelte.dev)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange?style=flat-square&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square)](LICENSE)
-[![Built with tabelawebui](https://img.shields.io/badge/theme-tabelawebui-d6b4f7?style=flat-square)](https://github.com/TabelaDev/tabelawebui)
+[![Built with tabelhawebui](https://img.shields.io/badge/theme-tabelhawebui-d6b4f7?style=flat-square)](https://github.com/TAbelhaDev/tabelhawebui)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ianptkcs)
 
@@ -20,14 +20,14 @@ pros produtos (apps web, TUIs e libs compartilhadas).**
 
 ## O que é
 
-O ponto de entrada único da TabelaDev: uma landing que amarra os produtos, um
+O ponto de entrada único da TAbelhaDev: uma landing que amarra os produtos, um
 feed de news (`content/news/`, em Markdown) com notas sobre o que está sendo
 feito e o porquê, e um changelog que agrega as releases de cada repo público -
 atualizado a partir dos `CHANGELOG.md` e das GitHub Releases, sem registro
 manual.
 
 O site inteiro é construído em cima do
-[`tabelawebui`](https://github.com/TabelaDev/tabelawebui), a lib de tema e chrome
+[`tabelhawebui`](https://github.com/TAbelhaDev/tabelhawebui), a lib de tema e chrome
 compartilhada - mesma estética e tokens dos apps que ele apresenta.
 
 ## Stack

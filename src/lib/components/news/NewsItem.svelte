@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Badge } from '@tabeladev/tabelawebui';
+	import { Badge } from '@tabelhadev/tabelhawebui';
 	import { friendlyDate } from '$lib/date';
 
 	let {

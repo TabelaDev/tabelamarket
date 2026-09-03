@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { MarketingShell, Button } from '@tabeladev/tabelawebui';
+	import { MarketingShell, Button } from '@tabelhadev/tabelhawebui';
 	import { PUBLIC_TABELAUTH_URL, PUBLIC_APP_URL } from '$env/static/public';
 
 	let { children } = $props();
@@ -18,7 +18,7 @@
 	footerLinks={[
 		{ href: `${PUBLIC_TABELAUTH_URL}/privacidade`, label: 'Privacidade' },
 		{ href: `${PUBLIC_TABELAUTH_URL}/termos`, label: 'Termos de uso' },
-		{ href: 'https://github.com/TabelaDev/tabelahub', label: 'Código-fonte' }
+		{ href: 'https://github.com/TAbelhaDev/tabelhahub', label: 'Código-fonte' }
 	]}
 	footerLicense="AGPL-3.0 · SvelteKit + Cloudflare Workers"
 >

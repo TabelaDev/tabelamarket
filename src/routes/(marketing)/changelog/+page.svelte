@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { changelog } from '$lib/hub-data';
-	import { Page, Timeline } from '@tabeladev/tabelawebui';
+	import { Page, Timeline } from '@tabelhadev/tabelhawebui';
 
 	const TITLE = 'Changelog - TabelaHub';
 	const DESCRIPTION =
-		'Histórico de releases de todos os repos públicos da TabelaDev, agregado automaticamente a partir dos CHANGELOG.md e das GitHub Releases.';
+		'Histórico de releases de todos os repos públicos da TAbelhaDev, agregado automaticamente a partir dos CHANGELOG.md e das GitHub Releases.';
 
 	function cleanLine(line: string): string {
 		return line
@@ -20,7 +20,7 @@
 		title: `${e.repo} ${e.version}`,
 		subtitle: e.source === 'release' ? 'release' : 'changelog',
 		date: e.date,
-		link: `https://github.com/TabelaDev/${e.repo}/releases`,
+		link: `https://github.com/TAbelhaDev/${e.repo}/releases`,
 		details: e.body
 			.split('\n')
 			.map(cleanLine)

@@ -23,7 +23,7 @@ import fm from 'front-matter';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const NEWS_DIR = join(ROOT, 'content/news');
 const STATE_FILE = join(ROOT, 'scripts/syndicated.json');
-const SITE = 'https://tabelahub.ianptkcs-023.workers.dev';
+const SITE = 'https://tabelhahub.tabelhadev.workers.dev';
 const PDS = 'https://bsky.social';
 
 const DRY_RUN = process.argv.includes('--dry-run');

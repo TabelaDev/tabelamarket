@@ -1,10 +1,10 @@
-A TabelaDev é uma organização que eu idealizei para criar uma identidade única para os diversos projetos que eu pensei em desenvolver. O nome "Tabela" vem da minha "obsessão" em sistematizar e padronizar tudo que eu vejo ao meu redor. Uma obsessão que pode, ou não, ser oriunda de uma dupla excepcionalidade.
+A TAbelhaDev é uma organização que eu idealizei para criar uma identidade única para os diversos projetos que eu pensei em desenvolver. O nome "Tabela" vem da minha "obsessão" em sistematizar e padronizar tudo que eu vejo ao meu redor. Uma obsessão que pode, ou não, ser oriunda de uma dupla excepcionalidade.
 
 ## A identidade
 
 Não é à toa que todos os projetos:
 
-- utilizam o design de um único projeto (`tabelawebui` e `tabelatuiui`)
+- utilizam o design de um único projeto (`tabelhawebui` e `tabelhatuiui`)
 - seguem o mesmo padrão de nomenclatura (`Tabela` + XXX)
 - seguem a mesma organização no github (definida no `tabelascaffold`)
 

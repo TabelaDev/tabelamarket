@@ -4,7 +4,7 @@
 		"version": "1.0.1",
 		"date": "2026-09-01",
 		"title": "v1.0.1",
-		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TabelaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TabelaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TabelaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TabelaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
+		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TabelaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
 		"source": "release"
 	},
 	{
@@ -12,7 +12,7 @@
 		"version": "1.0.0",
 		"date": "2026-08-27",
 		"title": "v1.0.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabela-whisper/commits/v1.0.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabela-whisper/commits/v1.0.0",
 		"source": "release"
 	},
 	{
@@ -20,7 +20,7 @@
 		"version": "0.28.4",
 		"date": "2026-08-27",
 		"title": "v0.28.4",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.2...v0.28.4",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.28.2...v0.28.4",
 		"source": "release"
 	},
 	{
@@ -28,7 +28,7 @@
 		"version": "0.28.2",
 		"date": "2026-08-27",
 		"title": "v0.28.2",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.1...v0.28.2",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.28.1...v0.28.2",
 		"source": "release"
 	},
 	{
@@ -36,7 +36,7 @@
 		"version": "0.28.1",
 		"date": "2026-08-27",
 		"title": "v0.28.1",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.0...v0.28.1",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.28.0...v0.28.1",
 		"source": "release"
 	},
 	{
@@ -44,7 +44,7 @@
 		"version": "0.1.0",
 		"date": "2026-08-26",
 		"title": "v0.1.0",
-		"body": "Initial registry release.\n\n- `index.json` consumed by tjobs' pack browser (`p` in the TUI, or `tjobs packs list`)\n- **model-monitor** pack: LLM pricing watchdog via models.dev (free-to-paid alerts, watchlist price moves, new free model discovery), suggested schedule every 6h\n\nInstall: `tjobs install https://github.com/TabelaDev/tjobs-packs#model-monitor`",
+		"body": "Initial registry release.\n\n- `index.json` consumed by tjobs' pack browser (`p` in the TUI, or `tjobs packs list`)\n- **model-monitor** pack: LLM pricing watchdog via models.dev (free-to-paid alerts, watchlist price moves, new free model discovery), suggested schedule every 6h\n\nInstall: `tjobs install https://github.com/TAbelhaDev/tjobs-packs#model-monitor`",
 		"source": "release"
 	},
 	{
@@ -52,7 +52,7 @@
 		"version": "0.28.0",
 		"date": "2026-08-26",
 		"title": "v0.28.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.26.0...v0.28.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.26.0...v0.28.0",
 		"source": "release"
 	},
 	{
@@ -60,7 +60,7 @@
 		"version": "0.2.0",
 		"date": "2026-08-25",
 		"title": "v0.2.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/compare/v0.1.0...v0.2.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelavagas/compare/v0.1.0...v0.2.0",
 		"source": "release"
 	},
 	{
@@ -68,7 +68,7 @@
 		"version": "0.6.0",
 		"date": "2026-08-25",
 		"title": "v0.6.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.5.0...v0.6.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.5.0...v0.6.0",
 		"source": "release"
 	},
 	{
@@ -76,7 +76,7 @@
 		"version": "0.4.0",
 		"date": "2026-08-25",
 		"title": "v0.4.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/compare/v0.3.0...v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelakanban/compare/v0.3.0...v0.4.0",
 		"source": "release"
 	},
 	{
@@ -84,7 +84,7 @@
 		"version": "0.4.0",
 		"date": "2026-08-25",
 		"title": "v0.4.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.3...v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.3...v0.4.0",
 		"source": "release"
 	},
 	{
@@ -92,7 +92,7 @@
 		"version": "0.3.3",
 		"date": "2026-08-25",
 		"title": "v0.3.3",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.2...v0.3.3",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.2...v0.3.3",
 		"source": "release"
 	},
 	{
@@ -108,7 +108,7 @@
 		"version": "0.26.0",
 		"date": "2026-08-23",
 		"title": "v0.26.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.25.0...v0.26.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.25.0...v0.26.0",
 		"source": "release"
 	},
 	{
@@ -116,7 +116,7 @@
 		"version": "0.3.0",
 		"date": "2026-08-14",
 		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/compare/v0.2.0...v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelakanban/compare/v0.2.0...v0.3.0",
 		"source": "release"
 	},
 	{
@@ -124,7 +124,7 @@
 		"version": "0.3.2",
 		"date": "2026-08-14",
 		"title": "v0.3.2",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.1...v0.3.2",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.1...v0.3.2",
 		"source": "release"
 	},
 	{
@@ -132,7 +132,7 @@
 		"version": "0.3.1",
 		"date": "2026-08-14",
 		"title": "v0.3.1",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.0...v0.3.1",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.0...v0.3.1",
 		"source": "release"
 	},
 	{
@@ -140,7 +140,7 @@
 		"version": "0.3.0",
 		"date": "2026-08-14",
 		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.1.0...v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.1.0...v0.3.0",
 		"source": "release"
 	},
 	{
@@ -148,7 +148,7 @@
 		"version": "0.5.0",
 		"date": "2026-08-11",
 		"title": "v0.5.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
 		"source": "release"
 	},
 	{
@@ -156,7 +156,7 @@
 		"version": "0.4.1",
 		"date": "2026-08-10",
 		"title": "v0.4.1",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.0...v0.4.1",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.4.0...v0.4.1",
 		"source": "release"
 	},
 	{
@@ -164,7 +164,7 @@
 		"version": "0.4.0",
 		"date": "2026-08-10",
 		"title": "v0.4.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.3.0...v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.3.0...v0.4.0",
 		"source": "release"
 	},
 	{
@@ -172,7 +172,7 @@
 		"version": "0.3.0",
 		"date": "2026-08-10",
 		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
 		"source": "release"
 	},
 	{
@@ -188,7 +188,7 @@
 		"version": "0.1.0",
 		"date": "2026-08-09",
 		"title": "v0.1.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/commits/v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelavagas/commits/v0.1.0",
 		"source": "release"
 	},
 	{
@@ -220,7 +220,7 @@
 		"version": "0.1.0",
 		"date": "2026-08-04",
 		"title": "v0.1.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/commits/v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelakanban/commits/v0.1.0",
 		"source": "release"
 	}
 ]

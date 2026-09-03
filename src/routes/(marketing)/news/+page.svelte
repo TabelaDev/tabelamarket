@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import type { PageData } from './$types';
-	import { Badge, Page } from '@tabeladev/tabelawebui';
+	import { Badge, Page } from '@tabelhadev/tabelhawebui';
 	import type { Project } from '$lib/hub-data';
 	import type { NewsPost } from '$lib/server/news';
 	import NewsItem from '$lib/components/news/NewsItem.svelte';

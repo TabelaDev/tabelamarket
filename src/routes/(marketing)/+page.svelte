@@ -6,14 +6,14 @@
 	import NewspaperIcon from '@lucide/svelte/icons/newspaper';
 	import type { PageData } from './$types';
 	import { projects, type Project } from '$lib/hub-data';
-	import { Badge, Button, Card, Landing, Page, Wordmark } from '@tabeladev/tabelawebui';
+	import { Badge, Button, Card, Landing, Page, Wordmark } from '@tabelhadev/tabelhawebui';
 	import NewsItem from '$lib/components/news/NewsItem.svelte';
 
 	let { data } = $props<{ data: PageData }>();
 
 	const TITLE = 'TabelaHub';
 	const DESCRIPTION =
-		'Landing, news e changelog agregado dos produtos da TabelaDev: apps web, TUIs, libs e scripts com a filosofia do software livre.';
+		'Landing, news e changelog agregado dos produtos da TAbelhaDev: apps web, TUIs, libs e scripts com a filosofia do software livre.';
 
 	const kindLabel: Record<Project['kind'], string> = {
 		web: 'web',
@@ -67,7 +67,7 @@
 <Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Landing>
-	<Landing.Hero eyebrow="O hub da TabelaDev" title={heroTitle} lead={HERO_LEAD} note={HERO_NOTE}>
+	<Landing.Hero eyebrow="O hub da TAbelhaDev" title={heroTitle} lead={HERO_LEAD} note={HERO_NOTE}>
 		{#snippet actions()}
 			<Button href="/#projetos" variant="primary" size="lg">Ver os projetos</Button>
 			<Button href="/news" variant="outline" size="lg">

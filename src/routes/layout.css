@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import '@tabeladev/tabelawebui/theme.css';
+@import '@tabelhadev/tabelhawebui/theme.css';
 @import '@fontsource-variable/jetbrains-mono';
 @import '@fontsource-variable/newsreader';
 @plugin '@tailwindcss/typography';
@@ -8,7 +8,7 @@
 
 /*
  * Design system: "reading someone's source file" - mesma estética dos apps da
- * TabelaDev. Mono leva a estrutura (labels, datas, valores); bordas afiadas e
+ * TAbelhaDev. Mono leva a estrutura (labels, datas, valores); bordas afiadas e
  * bem definidas; accent mauve (data-accent no app.html). Glow e gradiente da
  * landing saem da mesma cor.
  * Palette: Catppuccin (Latte / Mocha).
@@ -16,7 +16,7 @@
 
 /* ── Catppuccin Latte (tema claro) ───────────────────────────────────────── */
 :root {
-	/* Tokens vêm da lib @tabeladev/tabelawebui (theme.css) - uma fonte de verdade. */
+	/* Tokens vêm da lib @tabelhadev/tabelhawebui (theme.css) - uma fonte de verdade. */
 	--ctp-base: var(--twui-latte-base, #eff1f5);
 	--ctp-mantle: var(--twui-latte-mantle, #e6e9ef);
 	--ctp-crust: var(--twui-latte-crust, #dce0e8);

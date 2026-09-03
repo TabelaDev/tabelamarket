@@ -1,19 +1,19 @@
 <script lang="ts">
-	import { Page, Prose } from '@tabeladev/tabelawebui';
+	import { Page, Prose } from '@tabelhadev/tabelhawebui';
 	import UserRoundIcon from '@lucide/svelte/icons/user-round';
 	import HeartHandshakeIcon from '@lucide/svelte/icons/heart-handshake';
 	import BookUserIcon from '@lucide/svelte/icons/book-user';
 	import AboutMd from '../../../../content/about.md';
 
 	const TITLE = 'Sobre - TabelaHub';
-	const DESCRIPTION = 'Sobre a TabelaDev e eu, Ian Soares, o desenvolvedor por trás.';
+	const DESCRIPTION = 'Sobre a TAbelhaDev e eu, Ian Soares, o desenvolvedor por trás.';
 </script>
 
 <Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Page>
 	<Page.Header
-		title="Quem está por trás da TabelaDev"
+		title="Quem está por trás da TAbelhaDev"
 		subtitle="Um dev, alguns TUIs, alguns apps web - e a mesma obsessão em todo projeto."
 		back={{ label: 'Início', href: '/' }}
 	/>

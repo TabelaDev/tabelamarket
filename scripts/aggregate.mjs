@@ -16,11 +16,11 @@ import { fileURLToPath } from 'node:url';
 import { format, resolveConfig } from 'prettier';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const ORG = 'TabelaDev';
-const SITE = 'tabelahub';
+const ORG = 'TAbelhaDev';
+const SITE = 'tabelhahub';
 /* Repos do org que não são produtos: o profile README (.github) e o portfolio
    da pessoa (tabelaport) - os dois são linkados à parte. */
-const EXCLUDED = new Set(['.github', 'tabelaport']);
+const EXCLUDED = new Set(['.github', 'tabelhaport']);
 
 /* Overlay curado: o que o script NÃO decide sozinho. Chave = nome do repo.
    `kind`: web | tui | os | lib | script. `accent`: cor Catppuccin pro card. */
@@ -39,14 +39,14 @@ const overlay = {
 		accent: 'var(--ctp-peach)',
 		tagline: 'Agenda com IA em linguagem natural, no mesmo espírito "auto custo".'
 	},
-	tabelavagas: {
+	tabelhavagas: {
 		order: 3,
 		featured: true,
 		kind: 'tui',
 		accent: 'var(--ctp-sapphire)',
 		tagline: 'Filtra vagas de programação que valem a pena e notifica as que importam.'
 	},
-	tabelawebui: {
+	tabelhawebui: {
 		order: 4,
 		featured: true,
 		kind: 'lib',
@@ -54,32 +54,32 @@ const overlay = {
 		tagline:
 			'Tema + chrome compartilhado dos apps web: Catppuccin com estética "reading someone\'s source file".',
 		links: {
-			npm: 'https://www.npmjs.com/package/@tabeladev/tabelawebui',
-			npmMcp: 'https://www.npmjs.com/package/@tabeladev/mcp-tabelawebui'
+			npm: 'https://www.npmjs.com/package/@tabelhadev/tabelhawebui',
+			npmMcp: 'https://www.npmjs.com/package/@tabelhadev/mcp-tabelhawebui'
 		}
 	},
-	tabelaos: {
+	tabelhaos: {
 		order: 5,
 		featured: false,
 		kind: 'os',
 		accent: 'var(--ctp-teal)',
 		tagline: 'Instalador do Arch Linux com gum - archiso + LUKS2, testado em QEMU.'
 	},
-	tabelatuiui: {
+	tabelhatuiui: {
 		order: 6,
 		featured: false,
 		kind: 'lib',
 		accent: 'var(--ctp-mauve)',
 		tagline: 'Tema + chrome compartilhado das TUIs Go (Bubble Tea).'
 	},
-	tabelakanban: {
+	tabelhakanban: {
 		order: 7,
 		featured: false,
 		kind: 'tui',
 		accent: 'var(--ctp-yellow)',
 		tagline: 'Kanban no terminal.'
 	},
-	tabelaradar: {
+	tabelharadar: {
 		order: 8,
 		featured: false,
 		kind: 'tui',
@@ -94,14 +94,14 @@ const overlay = {
 		tagline:
 			'Injeta a estrutura open-source (CI, release, templates, CONTRIBUTING, LICENSE) num repo novo.'
 	},
-	tabelaquickrun: {
+	tabelhaquickrun: {
 		order: 10,
 		featured: false,
 		kind: 'script',
 		accent: 'var(--ctp-sky)',
 		tagline: 'Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.'
 	},
-	tabelawhisper: {
+	tabelhawhisper: {
 		order: 11,
 		featured: false,
 		kind: 'script',
@@ -109,7 +109,7 @@ const overlay = {
 		tagline:
 			'Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.'
 	},
-	'tabela-whisper': {
+	'tabelhawhisper': {
 		order: 11,
 		featured: false,
 		kind: 'script',

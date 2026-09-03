@@ -1,6 +1,6 @@
 import { getAllNews } from '$lib/server/news';
 
-const SITE = 'https://tabelahub.ianptkcs-023.workers.dev';
+const SITE = 'https://tabelhahub.tabelhadev.workers.dev';
 
 function esc(s: string): string {
 	return s
@@ -30,7 +30,7 @@ export function GET() {
   <channel>
     <title>TabelaHub - News</title>
     <link>${SITE}</link>
-    <description>O que eu ando fazendo e pensando na TabelaDev.</description>
+    <description>O que eu ando fazendo e pensando na TAbelhaDev.</description>
     <language>pt-BR</language>
     ${items}
   </channel>

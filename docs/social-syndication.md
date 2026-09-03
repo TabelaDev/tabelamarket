@@ -1,4 +1,4 @@
-# Syndication do tabelahub para redes sociais
+# Syndication do tabelhahub para redes sociais
 
 Plano para publicar o conteúdo de `content/news/` (o "blog" do hub) nas redes
 sociais, com cross-post automático e engajamento manual concentrado num canal.
@@ -16,7 +16,7 @@ cross-post, e a interação (responder gente) fica num único canal ativo.
 - **dev.to**: cross-post do **artigo completo** (body_markdown integral), com
   `canonical_url` apontando pro hub pra preservar SEO.
 - **Domínio**: lançar com o `workers.dev` atual
-  (`https://tabelahub.ianptkcs-023.workers.dev`), sem custom domain por ora.
+  (`https://tabelhahub.tabelhadev.workers.dev`), sem custom domain por ora.
 - **Backfill**: sindicar os 3 posts existentes assim que o pipeline ficar
   pronto - **após revisão dos textos** (bloqueado até o autor liberar).
 
@@ -86,6 +86,6 @@ API direta `POST /api/v1/statuses` com token.
 
 ## Posts existentes (backfill pendente de revisão)
 
-- `2026-08-12-bem-vindo-ao-hub.md` - "Bem-vindo ao tabelahub"
+- `2026-08-12-bem-vindo-ao-hub.md` - "Bem-vindo ao tabelhahub"
 - `2026-08-12-por-que-auto-custo.md` - "Por que 'auto custo'"
 - `2026-08-12-a-estetica-do-codigo-fonte.md` - "A estética 'lendo o código-fonte de alguém'"

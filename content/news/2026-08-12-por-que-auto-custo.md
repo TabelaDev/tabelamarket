@@ -6,7 +6,7 @@ tags: [filosofia]
 featured: true
 ---
 
-A frase "auto custo" aparece em vários repos da TabelaDev, e não é à toa: é a restrição de design que define o que cada app faz (e, principalmente, o que ele **não** faz).
+A frase "auto custo" aparece em vários repos da TAbelhaDev, e não é à toa: é a restrição de design que define o que cada app faz (e, principalmente, o que ele **não** faz).
 
 ## A regra
 
@@ -20,7 +20,7 @@ Quando um app aceita _sua_ chave de API, várias coisas mudam de uma vez:
 2. **Custo previsível.** O "plano" é o seu próprio consumo. Nada de surpresa no fim do mês porque você passou do limite do tier grátis.
 3. **Dados onde você manda.** Suas credenciais e seus dados ficam no seu banco, criptografados. O app não vê, não guarda, não revende - o que, infelizmente, é mais do que dá pra dizer de boa parte do SaaS por aí.
 
-Isso se conecta com outra regra da casa: **regras locais primeiro, IA depois.** No [tabelafin](https://github.com/TabelaDev/tabelafin), por exemplo, a categorização roda por regras locais mesmo sem nenhuma chave - IA é um upgrade opcional, nunca um requisito. App que funciona sem depender de terceiro é app que continua funcionando quando o terceiro muda de ideia.
+Isso se conecta com outra regra da casa: **regras locais primeiro, IA depois.** No [tabelafin](https://github.com/TAbelhaDev/tabelafin), por exemplo, a categorização roda por regras locais mesmo sem nenhuma chave - IA é um upgrade opcional, nunca um requisito. App que funciona sem depender de terceiro é app que continua funcionando quando o terceiro muda de ideia.
 
 ## O custo dessa escolha
 
