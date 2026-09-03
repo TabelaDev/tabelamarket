@@ -30,7 +30,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabelavagas",
+		"name": "tabelhavagas",
 		"description": "Filtra vagas de programação que valem a pena pro teu perfil e notifica as que importam. Monobando em Go: collect → rank → top → notify.",
 		"tagline": "Filtra vagas de programação que valem a pena e notifica as que importam.",
 		"language": "Go",
@@ -38,14 +38,14 @@
 		"accent": "var(--ctp-sapphire)",
 		"featured": true,
 		"order": 3,
-		"html_url": "https://github.com/TAbelhaDev/tabelavagas",
+		"html_url": "https://github.com/TAbelhaDev/tabelhavagas",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-25T19:14:55Z",
+		"pushed_at": "2026-09-02T19:24:43Z",
 		"links": {}
 	},
 	{
-		"name": "tabelawebui",
+		"name": "tabelhawebui",
 		"description": "",
 		"tagline": "Tema + chrome compartilhado dos apps web: Catppuccin com estética \"reading someone's source file\".",
 		"language": "Svelte",
@@ -56,14 +56,14 @@
 		"html_url": "https://github.com/TAbelhaDev/tabelhawebui",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-27T21:35:34Z",
+		"pushed_at": "2026-09-02T19:43:32Z",
 		"links": {
 			"npm": "https://www.npmjs.com/package/@tabelhadev/tabelhawebui",
 			"npmMcp": "https://www.npmjs.com/package/@tabelhadev/mcp-tabelhawebui"
 		}
 	},
 	{
-		"name": "tabelaos",
+		"name": "tabelhaos",
 		"description": "TabelaOS — shared target-stack spec for TabelaArch and TabelaNix: niri + DankMaterialShell, hardware facts, NVIDIA/Optimus config, package equivalence table",
 		"tagline": "Instalador do Arch Linux com gum - archiso + LUKS2, testado em QEMU.",
 		"language": "",
@@ -71,14 +71,14 @@
 		"accent": "var(--ctp-teal)",
 		"featured": false,
 		"order": 5,
-		"html_url": "https://github.com/TAbelhaDev/tabelaos",
+		"html_url": "https://github.com/TAbelhaDev/tabelhaos",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-22T17:21:56Z",
+		"pushed_at": "2026-09-02T19:39:05Z",
 		"links": {}
 	},
 	{
-		"name": "tabelatuiui",
+		"name": "tabelhatuiui",
 		"description": "",
 		"tagline": "Tema + chrome compartilhado das TUIs Go (Bubble Tea).",
 		"language": "Go",
@@ -86,14 +86,14 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 6,
-		"html_url": "https://github.com/TAbelhaDev/tabelatuiui",
+		"html_url": "https://github.com/TAbelhaDev/tabelhatuiui",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-22T17:00:40Z",
+		"pushed_at": "2026-09-02T19:20:08Z",
 		"links": {}
 	},
 	{
-		"name": "tabelakanban",
+		"name": "tabelhakanban",
 		"description": "",
 		"tagline": "Kanban no terminal.",
 		"language": "Go",
@@ -101,14 +101,14 @@
 		"accent": "var(--ctp-yellow)",
 		"featured": false,
 		"order": 7,
-		"html_url": "https://github.com/TAbelhaDev/tabelakanban",
+		"html_url": "https://github.com/TAbelhaDev/tabelhakanban",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-25T19:14:19Z",
+		"pushed_at": "2026-09-02T19:18:13Z",
 		"links": {}
 	},
 	{
-		"name": "tabelaradar",
+		"name": "tabelharadar",
 		"description": "TUI to browse local repo status: git health, WIP, unpushed/stale work",
 		"tagline": "TUI pra navegar o estado dos teus repos: git health, WIP, trabalho não pusheado.",
 		"language": "Go",
@@ -116,10 +116,10 @@
 		"accent": "var(--ctp-red)",
 		"featured": false,
 		"order": 8,
-		"html_url": "https://github.com/TAbelhaDev/tabelaradar",
+		"html_url": "https://github.com/TAbelhaDev/tabelharadar",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-25T19:14:30Z",
+		"pushed_at": "2026-09-02T19:15:47Z",
 		"links": {}
 	},
 	{
@@ -138,7 +138,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabelaquickrun",
+		"name": "tabelhaquickrun",
 		"description": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
 		"tagline": "Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.",
 		"language": "QML",
@@ -146,29 +146,29 @@
 		"accent": "var(--ctp-sky)",
 		"featured": false,
 		"order": 10,
-		"html_url": "https://github.com/TAbelhaDev/tabelaquickrun",
+		"html_url": "https://github.com/TAbelhaDev/tabelhaquickrun",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-23T16:53:23Z",
+		"pushed_at": "2026-09-02T19:14:21Z",
 		"links": {}
 	},
 	{
-		"name": "tabelawhisper",
-		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
-		"tagline": "Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.",
-		"language": "Python",
-		"kind": "script",
-		"accent": "var(--ctp-pink)",
+		"name": "tabelhajobs",
+		"description": "TUI to browse and manage jobs scheduled as systemd user timers, Catppuccin-themed",
+		"tagline": "TUI to browse and manage jobs scheduled as systemd user timers, Catppuccin-themed",
+		"language": "Go",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
 		"featured": false,
-		"order": 11,
-		"html_url": "https://github.com/TAbelhaDev/tabelawhisper",
+		"order": 99,
+		"html_url": "https://github.com/TAbelhaDev/tabelhajobs",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-09-01T19:33:00Z",
+		"pushed_at": "2026-09-02T19:55:25Z",
 		"links": {}
 	},
 	{
-		"name": "tabelaarch",
+		"name": "tabelhaarch",
 		"description": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
 		"tagline": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
 		"language": "Shell",
@@ -176,10 +176,25 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelaarch",
+		"html_url": "https://github.com/TAbelhaDev/tabelhaarch",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-22T19:15:10Z",
+		"pushed_at": "2026-09-02T19:36:48Z",
+		"links": {}
+	},
+	{
+		"name": "tabelaport",
+		"description": "",
+		"tagline": "",
+		"language": "TypeScript",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TAbelhaDev/tabelaport",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-22T16:05:17Z",
 		"links": {}
 	},
 	{
@@ -198,7 +213,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabelawt",
+		"name": "tabelhawt",
 		"description": "The tube of your network: a YouTube aggregator with your own recommendation algorithm",
 		"tagline": "The tube of your network: a YouTube aggregator with your own recommendation algorithm",
 		"language": "",
@@ -206,14 +221,14 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelawt",
+		"html_url": "https://github.com/TAbelhaDev/tabelhawt",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-22T16:05:32Z",
+		"pushed_at": "2026-09-02T19:14:01Z",
 		"links": {}
 	},
 	{
-		"name": "tabelanix",
+		"name": "tabelhanix",
 		"description": "TabelaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
 		"tagline": "TabelaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
 		"language": "",
@@ -221,10 +236,10 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelanix",
+		"html_url": "https://github.com/TAbelhaDev/tabelhanix",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-08-22T17:22:57Z",
+		"pushed_at": "2026-09-02T19:37:47Z",
 		"links": {}
 	},
 	{
@@ -240,6 +255,21 @@
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-08-26T01:40:36Z",
+		"links": {}
+	},
+	{
+		"name": "tabelawhisper",
+		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"tagline": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"language": "Python",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TAbelhaDev/tabelawhisper",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-09-01T19:33:00Z",
 		"links": {}
 	}
 ]
