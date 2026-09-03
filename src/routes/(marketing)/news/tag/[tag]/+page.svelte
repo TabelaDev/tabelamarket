@@ -11,7 +11,7 @@
 	const project = $derived(data.project);
 	const posts = $derived(data.posts);
 
-	const TITLE = $derived(`${project.name} - TabelaMarket`);
+	const TITLE = $derived(`${project.name} - TabelaHub`);
 	const DESCRIPTION = $derived(project.tagline);
 
 	const kindLabel: Record<string, string> = {
@@ -22,7 +22,7 @@
 	};
 </script>
 
-<Page.Seo siteName="TabelaMarket" title={TITLE} description={DESCRIPTION} />
+<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Page>
 	<Page.Header

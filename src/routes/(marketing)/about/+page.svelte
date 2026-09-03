@@ -5,11 +5,11 @@
 	import BookUserIcon from '@lucide/svelte/icons/book-user';
 	import AboutMd from '../../../../content/about.md';
 
-	const TITLE = 'Sobre - TabelaMarket';
+	const TITLE = 'Sobre - TabelaHub';
 	const DESCRIPTION = 'Sobre a TabelaDev e eu, Ian Soares, o desenvolvedor por trás.';
 </script>
 
-<Page.Seo siteName="TabelaMarket" title={TITLE} description={DESCRIPTION} />
+<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Page>
 	<Page.Header

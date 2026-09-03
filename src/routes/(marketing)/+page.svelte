@@ -11,15 +11,16 @@
 
 	let { data } = $props<{ data: PageData }>();
 
-	const TITLE = 'TabelaMarket';
+	const TITLE = 'TabelaHub';
 	const DESCRIPTION =
-		'Landing, news e changelog agregado dos produtos da TabelaDev: apps web, TUIs e libs com a filosofia do software livre.';
+		'Landing, news e changelog agregado dos produtos da TabelaDev: apps web, TUIs, libs e scripts com a filosofia do software livre.';
 
 	const kindLabel: Record<Project['kind'], string> = {
 		web: 'web',
 		tui: 'tui',
 		os: 'os',
-		lib: 'lib'
+		lib: 'lib',
+		script: 'script'
 	};
 
 	const HERO_LEAD =
@@ -60,10 +61,10 @@
 </script>
 
 {#snippet heroTitle()}
-	<Wordmark prefix="Tabela" suffix="Market" />
+	<Wordmark prefix="Tabela" suffix="Hub" />
 {/snippet}
 
-<Page.Seo siteName="TabelaMarket" title={TITLE} description={DESCRIPTION} />
+<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Landing>
 	<Landing.Hero eyebrow="O hub da TabelaDev" title={heroTitle} lead={HERO_LEAD} note={HERO_NOTE}>

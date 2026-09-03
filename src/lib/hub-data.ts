@@ -1,7 +1,7 @@
 import changelogJson from './changelog.json';
 import projectsJson from './projects.json';
 
-export type ProjectKind = 'web' | 'tui' | 'os' | 'lib';
+export type ProjectKind = 'web' | 'tui' | 'os' | 'lib' | 'script';
 
 export interface Project {
 	name: string;

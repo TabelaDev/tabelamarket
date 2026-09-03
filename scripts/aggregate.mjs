@@ -17,13 +17,13 @@ import { format, resolveConfig } from 'prettier';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TabelaDev';
-const SITE = 'tabelamarket';
+const SITE = 'tabelahub';
 /* Repos do org que não são produtos: o profile README (.github) e o portfolio
    da pessoa (tabelaport) - os dois são linkados à parte. */
 const EXCLUDED = new Set(['.github', 'tabelaport']);
 
 /* Overlay curado: o que o script NÃO decide sozinho. Chave = nome do repo.
-   `kind`: web | tui | os | lib. `accent`: cor Catppuccin pro card. */
+   `kind`: web | tui | os | lib | script. `accent`: cor Catppuccin pro card. */
 const overlay = {
 	tabelafin: {
 		order: 1,
@@ -93,6 +93,29 @@ const overlay = {
 		accent: 'var(--ctp-blue)',
 		tagline:
 			'Injeta a estrutura open-source (CI, release, templates, CONTRIBUTING, LICENSE) num repo novo.'
+	},
+	tabelaquickrun: {
+		order: 10,
+		featured: false,
+		kind: 'script',
+		accent: 'var(--ctp-sky)',
+		tagline: 'Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.'
+	},
+	tabelawhisper: {
+		order: 11,
+		featured: false,
+		kind: 'script',
+		accent: 'var(--ctp-pink)',
+		tagline:
+			'Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.'
+	},
+	'tabela-whisper': {
+		order: 11,
+		featured: false,
+		kind: 'script',
+		accent: 'var(--ctp-pink)',
+		tagline:
+			'Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.'
 	}
 };
 

@@ -138,6 +138,36 @@
 		"links": {}
 	},
 	{
+		"name": "tabelaquickrun",
+		"description": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
+		"tagline": "Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.",
+		"language": "QML",
+		"kind": "script",
+		"accent": "var(--ctp-sky)",
+		"featured": false,
+		"order": 10,
+		"html_url": "https://github.com/TabelaDev/tabelaquickrun",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-23T16:53:23Z",
+		"links": {}
+	},
+	{
+		"name": "tabelawhisper",
+		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"tagline": "Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.",
+		"language": "Python",
+		"kind": "script",
+		"accent": "var(--ctp-pink)",
+		"featured": false,
+		"order": 11,
+		"html_url": "https://github.com/TabelaDev/tabelawhisper",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-09-01T19:33:00Z",
+		"links": {}
+	},
+	{
 		"name": "tabelaarch",
 		"description": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
 		"tagline": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
@@ -198,21 +228,6 @@
 		"links": {}
 	},
 	{
-		"name": "tabelaquickrun",
-		"description": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
-		"tagline": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
-		"language": "QML",
-		"kind": "web",
-		"accent": "var(--ctp-mauve)",
-		"featured": false,
-		"order": 99,
-		"html_url": "https://github.com/TabelaDev/tabelaquickrun",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-08-23T16:53:23Z",
-		"links": {}
-	},
-	{
 		"name": "tjobs-packs",
 		"description": "Registry de job packs para o tjobs",
 		"tagline": "Registry de job packs para o tjobs",
@@ -225,21 +240,6 @@
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-08-26T01:40:36Z",
-		"links": {}
-	},
-	{
-		"name": "tabelawhisper",
-		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
-		"tagline": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
-		"language": "Python",
-		"kind": "web",
-		"accent": "var(--ctp-mauve)",
-		"featured": false,
-		"order": 99,
-		"html_url": "https://github.com/TabelaDev/tabelawhisper",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-09-01T19:33:00Z",
 		"links": {}
 	}
 ]

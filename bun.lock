@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "tabelamarket",
+      "name": "tabelahub",
       "dependencies": {
         "@lucide/svelte": "^1.28.0",
         "@tabeladev/tabelawebui": "^0.28.0",

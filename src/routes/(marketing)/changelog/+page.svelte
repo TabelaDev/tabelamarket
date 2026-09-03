@@ -2,7 +2,7 @@
 	import { changelog } from '$lib/hub-data';
 	import { Page, Timeline } from '@tabeladev/tabelawebui';
 
-	const TITLE = 'Changelog - TabelaMarket';
+	const TITLE = 'Changelog - TabelaHub';
 	const DESCRIPTION =
 		'Histórico de releases de todos os repos públicos da TabelaDev, agregado automaticamente a partir dos CHANGELOG.md e das GitHub Releases.';
 
@@ -29,7 +29,7 @@
 	}));
 </script>
 
-<Page.Seo siteName="TabelaMarket" title={TITLE} description={DESCRIPTION} />
+<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Page>
 	<Page.Header

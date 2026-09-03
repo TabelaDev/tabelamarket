@@ -8,7 +8,7 @@
 
 	let { data } = $props<{ data: PageData }>();
 
-	const TITLE = 'TabelaMarket: News';
+	const TITLE = 'TabelaHub: News';
 	const DESCRIPTION =
 		'O que estou fazendo e pensando: notas sobre decisões de design e o porquê das coisas.';
 
@@ -19,7 +19,7 @@
 	);
 </script>
 
-<Page.Seo siteName="TabelaMarket" title={TITLE} description={DESCRIPTION} />
+<Page.Seo siteName="TabelaHub" title={TITLE} description={DESCRIPTION} />
 
 <Page>
 	<Page.Header

@@ -1,4 +1,4 @@
-# Checklist de execução - syndication do tabelamarket
+# Checklist de execução - syndication do tabelahub
 
 Implementação técnica já feita (docs/social-syndication.md, scripts/syndicate.mjs,
 workflow syndicate.yml). Falta a parte manual e os passos de ativação.
@@ -14,7 +14,7 @@ workflow syndicate.yml). Falta a parte manual e os passos de ativação.
 - [ ] Bluesky: gerar **app password** (Settings → App passwords) - não usar a senha da conta
 - [ ] dev.to: gerar **API key** (Settings → Extensions → DEV Community API Keys)
 
-## 3. Secrets no GitHub (repo TabelaDev/tabelamarket → Settings → Secrets → Actions)
+## 3. Secrets no GitHub (repo TabelaDev/tabelahub → Settings → Secrets → Actions)
 
 - [ ] `DEVTO_API_KEY`
 - [ ] `BLUESKY_HANDLE` (ex.: `tabeladev.bsky.social`)

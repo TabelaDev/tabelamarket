@@ -35,4 +35,4 @@ Próximos passos, features planejadas, o que mudaria se fosse recomeçar.
 
 ---
 
-Post publicado no [tabelamarket](https://tabelamarket.ianptkcs-023.workers.dev/news/tabelaproj).
+Post publicado no [tabelahub](https://tabelahub.ianptkcs-023.workers.dev/news/tabelaproj).

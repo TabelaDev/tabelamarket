@@ -1,6 +1,6 @@
 <div align="center">
 
-# TabelaMarket
+# TabelaHub
 
 **O hub da TabelaDev - landing, news e um changelog agregado automaticamente
 pros produtos (apps web, TUIs e libs compartilhadas).**

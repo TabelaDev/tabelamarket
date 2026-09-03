@@ -13,12 +13,12 @@
 </script>
 
 <MarketingShell
-	suffix="Market"
+	suffix="Hub"
 	nav={navItems}
 	footerLinks={[
 		{ href: `${PUBLIC_TABELAUTH_URL}/privacidade`, label: 'Privacidade' },
 		{ href: `${PUBLIC_TABELAUTH_URL}/termos`, label: 'Termos de uso' },
-		{ href: 'https://github.com/TabelaDev/tabelamarket', label: 'Código-fonte' }
+		{ href: 'https://github.com/TabelaDev/tabelahub', label: 'Código-fonte' }
 	]}
 	footerLicense="AGPL-3.0 · SvelteKit + Cloudflare Workers"
 >
