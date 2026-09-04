@@ -93,21 +93,6 @@
 		"links": {}
 	},
 	{
-		"name": "tabelascaffold",
-		"description": "",
-		"tagline": "Injeta a estrutura open-source (CI, release, templates, CONTRIBUTING, LICENSE) num repo novo.",
-		"language": "Go",
-		"kind": "tui",
-		"accent": "var(--ctp-blue)",
-		"featured": false,
-		"order": 9,
-		"html_url": "https://github.com/TAbelhaDev/tabelascaffold",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-08-25T19:14:43Z",
-		"links": {}
-	},
-	{
 		"name": "tabelhaquickrun",
 		"description": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
 		"tagline": "Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.",
@@ -195,6 +180,21 @@
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-03T18:52:09Z",
+		"links": {}
+	},
+	{
+		"name": "tabelhascaffold",
+		"description": "",
+		"tagline": "",
+		"language": "Go",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TAbelhaDev/tabelhascaffold",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-09-03T19:42:14Z",
 		"links": {}
 	},
 	{
